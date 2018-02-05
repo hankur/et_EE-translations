@@ -11,3 +11,6 @@ Selleks pead:
 
 
 *Tegelikud sammud võivad veidi erineda, kuid üldjoontes käib see nii.*
+
+Tõlkefailid partneritelt:
+* https://github.com/DirolGaming/ASkyBlock_EST
