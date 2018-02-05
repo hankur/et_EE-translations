@@ -1,0 +1,25 @@
+# [][][][][][][][][][][][][][][][][][][][][]
+#  CratesPlus V4.2.4 Messages
+# [][][][][][][][][][][][][][][][][][][][][]
+# ------------------------------------------
+# There are many placeholders that can now be used withing the config and messages file, placeholders are as followed:
+# - %name% - Replaces with the players name, Example: "Notch".
+# - %displayname% - Replaces with the players display name, Example: "[Owner] Notch".
+# - %uuid% - Replaces with the players UUID.
+# - %crate% - The crate types name.
+# - %prize% - The name of the winning.
+# - %percentage% - Percentage of the winning, useful for "Chance Message".
+
+Prefix: '&2&lLoosikast >'
+Command No Permission: '&cYou do not have the correct permission to run this command'
+Crate No Permission: '&cYou do not have the correct permission to use this crate'
+Crate Open Without Key: '&cSul on vaja kasti %crate% &cvõtit, et seda avada.'
+Key Given: '&aSulle anti kasti %crate% &avõti.'
+Broadcast: '&d%displayname% &dopened a %crate% &dcrate'
+Cant Place: '&cKastide võtmeid ei saa maha panna.'
+Cant Drop: '&cKastide võtmeid ei saa maha visata.'
+Chance Message: '&d%percentage%% võimalus'
+Inventory Full Claim: '&aYou''re inventory is full, you can claim your keys later
+  using /crate'
+Claim Join: '&aYou currently have keys waiting to be claimed, use /crate to claim'
+Possible Wins Title: '| Võimalik võita:'
