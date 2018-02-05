@@ -15,8 +15,6 @@ aliases:
   - heal
   töölaud:
   - wb
-  spawner:
-  - espawner $1-
   lähedal:
   - near
   tagasi:
