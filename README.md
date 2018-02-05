@@ -7,6 +7,7 @@ Tõlkefailid partneritelt:
 
 ## KKK
 **Kuidas saan aidata?**
+
 Selleks pead:
 1. tegema endale GitHubis konto,
 2. avama faili, mida soovid muuta,
@@ -18,4 +19,5 @@ Selleks pead:
 *Tegelikud sammud võivad veidi erineda, kuid üldjoontes käib see nii.*
 
 **Kas võin siin tõlgitud faile enda serveri jaoks kasutada?**
+
 Jah, võid küll. Siiski soovitame tungivalt, et teeksite vähemalt mingisuguseid muudatusi (nt värvide osas), et kõik eesti serverid lõpuks samasugused välja ei näeks.
