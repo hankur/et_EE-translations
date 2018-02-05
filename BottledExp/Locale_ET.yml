@@ -1,0 +1,53 @@
+Prefix: '&2&lXP > '
+Nopermission: '&cSul pole selleks piisavalt õigusi.'
+NoPlayer: '&cSellise nimega mängijat ei leitud.'
+MoreThanZero: '&cPalun kasuta suuremat numbrit kui 0.'
+Self: '&cSa ei saa iseendale XPd saata!'
+Reload: '&eConfiguration files was reloaded!'
+Enchant: '&eSa kulutasid sellele loitsule &l[xp] &eXPd.'
+GotExp: '&eSul on &l[xp] &eXPd.'
+Store:
+  Name: '&3&lXP'
+  Lore: '&eHoiustatud XP:'
+  ExpLoreColor: '&6'
+command:
+  help:
+    output:
+      usage: '&cKasutamine: /xppudel <kogus|max>'
+      title: '&8----&7 ==== &2&lXP &7==== &8----'
+  stats:
+    help:
+      info: '&eKontrolli oma XP seisu.'
+      args: ''
+    info:
+      feedback:
+      - '&eSul on hetkel &l[xp] &eXPd ja Sa oled levelil &l[level]&e!'
+      - '&eJärgmise levelini on jäänud veel &l[xpdelta] &eXPd või &l[bottles] &eXP pudelit!'
+      Moneyfeedback: '&2This will gonna cost you &3[money]'
+  until:
+    help:
+      info: '&eVaata, mitu pudelit on antud leveli jaoks veel vaja.'
+      args: '[level]'
+    info:
+      moreThan: '&cSul on juba suurem level!'
+      feedback: '&eSul on vaja &l[xp] &XPd või &l[bottles] &eXP pudelit, et jõuda levelile &l[level]&e.'
+      Moneyfeedback: '&2This will gonna cost you &3[money]'
+  give:
+    help:
+      info: '&eSaada teisele mängijale XPd'
+      args: '[mängija] [kogus]'
+    info:
+      noExp: '&cSul pole selleks piisavalt XPd!'
+      sender: '&aSa saatsid &l[amount] &eXPd mängijale &l[name]&e!'
+      receiver: '&aSa said &l[amount] &eXPd mängijalt &l[name]&e!'
+  get:
+    help:
+      info: '&ePane oma XP pudelitesse'
+      args: '[kogus] või "max"'
+    info:
+      noExp: '&cSul pole selleks piisavalt XPd.'
+      NoMoney: '&4You don''t have enough money!'
+      NoItems: '&cSul pole kotis tühja pudelit!'
+      Refund: '&2Refund issued! Amount: &3[amount]'
+      Cost: '&eTransaction cost: &3[cost]'
+      Order: '&aSa said oma XP vastu &l[bottles] &apudelit!'
