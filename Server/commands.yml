@@ -31,3 +31,7 @@ aliases:
   - rc
   vaatle:
   - spectate $1-
+  lõimud:
+  - warps
+  lõim:
+  - warp $1-
