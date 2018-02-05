@@ -1,0 +1,60 @@
+############################
+##  === [ EASY WARP ] === ##
+############################
+
+# Name displayed in messages sent to player from plugin.
+# ex. [server-name] You have been warped.
+server-name: "&2&lLõimud > "
+
+
+#============================================================================================================================#
+#============================================================================================================================#
+#============================================================================================================================#
+
+
+#Variables:
+#
+#{delay}
+#{name}
+#{display}
+#{node}
+#{command}
+
+#{page}
+#{pages}
+
+#{target}
+
+#Messages to be sent
+messages:
+  warp:
+    other: "&a You have warped &c{target}&a to &c{warp}."
+    cancelled: "&cTeleportimine on katkestatud."
+    completed: "&aSind teleporditi lõimu {warp}."
+    delayed: "&eSind teleporditakse lõimu &l{delay} &esekundi pärast."
+    removed: "&aLõim {warp} on eemaldatud."
+    set: "&aLõim {warp} on tehtud."
+    list: "&e&lLõimude nimekiri ({page}/{pages}):"
+    no-permission:
+    - "&cError: You do not have permission to use this warp."
+    - "&c -> To list available warps, use /warps"
+  error:
+    illegal-char: "&cSelline nimi on ebasobiv."
+    no-warp:
+    - "&cSellist lõimu pole olemas."
+    - "&eLõimude vaatamiseks kasuta käsku /lõimud."
+    no-warp-given:
+    - "&cKasutamine: /lõim <nimi>"
+    - "&eLõimude vaatamiseks kasuta käsku /lõimud."
+    no-permission: "&cSul pole selleks piisavalt õigusi."
+    no-page: "&cKasutamine: /lõimud <nr>"
+    no-player: "&cError: Player not found."
+    not-player: "&cError: You must be a player to do this."
+    cannot-overwrite: "&cSellise nimega lõim on juba olemas."
+  config:
+    reloaded: "&a Config reloaded."
+
+#Example of multi-lined message
+#  example:
+#  - This line comes first
+#  - Then this one

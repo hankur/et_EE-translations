@@ -1,0 +1,42 @@
+# --- Example for chest-items.yml ---
+# Each config section must have a unique name (item1, item2, ...), an item and a probability.
+
+item1:
+  probability: 45
+  item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      amount: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "Sword of Punch"
+        lore:
+          - "Hit them, baby!"
+        enchants:
+          KNOCKBACK: 1
+item2:
+  probability: 73
+  item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CARROT_ITEM
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 
+        lore:
+          - "Healthy food for tributes."
+        enchants:
+item3:
+  probability: 9
+  item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ROTTEN_FLESH
+      amount: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 
+        lore: 
+        enchants:

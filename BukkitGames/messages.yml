@@ -1,0 +1,203 @@
+# This is your messages.yml file. In here you can customize all BukkitGames messages.
+# Use double quotes (") instead of single quotes (') for strings! $0, $1 etc. are placeholders for variables.
+# It's adviced to translate the messages and not change their meaning, because some messages might be used in different situations.
+#
+# If you want to change the kick message when your server restarts, go to your 'bukkit.yml' file and change the option 'shutdown-message'.
+#
+# It would be nice if you would share your finished translation.
+# For more information please visit the wiki: https://bitbucket.org/ftbastler/bukkitgames/wiki/
+
+TIME_UNTIL_BEGIN: Game begins in $0.
+TIME_UNTIL_INVINCIBILITY: Invincibility ends in $0.
+GAME_ALREADY_STARTED: Game already begun!
+GAME_STARTED: The game started! Prepare to fight.
+WAITNG_FOR_PLAYERS: Waiting for tributes.
+GAME_IN_PROGRESS: In progress.
+GAME_STARTING_IN: Starting in $0.
+GAME_END_SOON: Game will end soon! Quick, kill any remaining tributes now!
+GAME_ENDING_NOW: Game time limit reached! Server will restart very soon.
+MAY_ODDS_BE_IN_FAVOR: May the odds be ever in your favor.
+ODDS_WERE_NOT_IN_FAVOR: The odds were not in their favor.
+FREEZE_UNTIL_GAME_START: You can not move until the game begins.
+NO_PERMISSION: You do not have permission.
+YOU_DIED: You have fallen!
+COMPASS_NAME: Compass
+COMPASS_CHANGE_MODE: "Left click to switch between target modes."
+COMPASS_UPDATE: "Right click to update the compass."
+GAME_ENDED: Game ended! Server will restart soon.
+KIT_CHOOSE: You chose $0 as your kit.
+NO_KITS_AVAILABLE: There are no kits available.
+CHOOSE_KIT: Choose your kit
+BUY_KITS: Buy a kit
+KITS_NEEDING_PERMISSION: "Other kits &o&c(Permissions required)"
+KITS_NEEDING_PERMISSION_GET: "Ask your server admin for more information."
+COUNTDOWN_RESETTED: Countdown resetted.
+SECONDS: Seconds
+SECOND: Second
+MINUTES: Minutes
+MINUTE: Minute
+RANDOMLY_GENERATED_WORLD: Randomly generated world
+WORLD_VOTE: Vote for a world
+WORLD_VOTING: World Voting
+VOTE_SUCCESS: "Thanks! You voted for $0."
+VOTE_ERROR: "Sorry, your vote could not be saved."
+VOTING_AVAILABLE_OPTIONS: "Available options for the voting:"
+CURRENTLY_NO_VOTING: There is currently no voting in progress.
+VOTING_ENDED_RESULT: Voting ended. The next world will be $0.
+VOTE_NOW_FOR_NEXT_WORLD: "Vote now for a world to be used next game! &f/bg vote or /bg vote [id]"
+PLAYER_VOLUNTEERS_AS_TRIBUTE: $0 volunteers as tribute!
+PLAYER_LOGGED_BACK_IN: $0 logged back in.
+PLAYER_LOGGED_OUT: $0 logged out.
+PLAYER_NO_LONGER_VOLUNTEERS_AS_TRIBUTE: $0 no longer volunteers as tribute.
+PLAYER_QUIT_GAME: $0 quit the game.
+NOW_SPECTATOR: You are now a spectator.
+NOW_GAMEMAKER: You are now a gamemaker.
+TRIBUTES: Tributes
+TRIBUTE: Tribute
+DEAD_TRIBUTES: Dead tributes
+COUNTDOWN: Countdown
+CLOSE_TO_BORDER: You are coming close to the world border.
+OUT_OF_BORDER: You are out of the world border.
+YOU_WERE_IN_THE_WAY: Sorry, you were in the way.
+YOU_WON_THIS_ROUND: Congratulations! You won this game!
+WINNER_REWARD_ALL_KITS: As a reward for winning the last game, you can access all kits this round. Have fun!
+FEAST_NOT_SPAWNED_YET: Feast has not spawned, yet.
+FEAST_WILL_SPAWN_SOON: The feast will be spawned in some seconds...
+CAN_NOT_FORCE_FEAST_SPAWN: Feast spawning can not be forced at the moment.
+NO_PLAYERS_FOUND: No players were found.
+COOLDOWN_NOT_EXPIRED: Cooldown hasn't expired, yet.
+MOTD_PREPARING: "Preparing..."
+TRACKING_PLAYER: Tracking player $0 ($1 blocks away).
+COMPASS_TRACKING: "(Tracking: $0)"
+TRACK_PLAYER: "Tracking mode switched to: Nearest player"
+TRACK_CORNUCOPIA: "Tracking mode switched to: Cornucopia."
+TRACK_FEAST: "Tracking mode switched to: Feast"
+KIT_DOES_NOT_EXIST: "The kit $0 does not exist."
+YOU_CAN_NOT_ACCESS_KIT: You can not access the kit $0.
+PLAYER_WON_ROUND: $0 won this game.
+YOU_EARNED_MONEY: You just earned $0 credits!
+COMMAND_USAGE: "Usage: $0"
+COMMAND_NOT_FOUND: This command does not exist.
+WELCOME_TO_BUKKITGAMES: Welcome to the BukkitGames, $0!
+CHECKING_FOR_UPDATES: Checking for updates...
+GAMESTATE_PREGAME: Waiting
+GAMESTATE_INCINCIBILITY: Preparing
+GAMESTATE_RUNNING: Fighting
+GAMESTATE_FINAL: Finishing
+GAMESTATE_WINNER: Ending
+CHAT_GAMEMAKER_PREFIX: GAMEMAKER
+CHAT_SPECTATOR_PREFIX: SPECTATOR
+CHAT_WINNER_PREFIX: WINNER
+JOIN_TO_SPECTATE: Join to spectate.
+GAMESTATE: State
+NEED_MORE_PLAYERS: We need at least $0 tributes to start the game.
+KIT_MENU_SELECT_TITLE: Kit Selection
+KIT_MENU_BUY_TITLE: Kit Shop
+RIGHT_CLICK_TO_OPEN: Right click to open the menu.
+YOU_NEED_MORE_MONEY_TO_BUY: You are $0 credits short to buy the kit $1.
+YOU_BOUGHT_KIT: You bought the kit $0 for $1 credits.
+YOUR_CURRENT_MONEY: "Current balance: $0 credits"
+MONEY_FOR_WINNING: "Winning a game: $0 credits"
+MONEY_FOR_KILLING: "Killing a tribute: $0 credits"
+KIT_PURCHASES_DISABLED: Kit purchases and credits are disabled.
+NOTHING_TO_BUY: The shop is empty.
+SHOP_CLOSED: The shop is closed.
+PAYMENT_CANCELLED: Payment process cancelled.
+BORDER_RADIUS: Border radius
+WORLD_BORDER_SHRINKED: The world border shrinked by $0 blocks.
+WORLD_BORDER_SHRINKING: The world border is now shrinking by $0 blocks.
+WORLD_BORDER_WILL_SHRINK: The world border will now start to shrink. Stay away from it and move to spawn!
+PLAYER_DOES_NOT_EXIST_OR_NOT_ONLINE: Player doesn't exist or is not online.
+MONEY_SET_SUCCESS: Balance of player $0 successfully set to $1 credits.
+MONEY_GET_SUCCESS: Balance of player $0 is $1 credits.
+MONEY_GIVE_SUCCESS_SENDER: You transferred $1 credits to $0.
+MONEY_GIVE_SUCCESS_RECEIVER: You received $1 credits from $0.
+MONEY_ADD_SUCCESS: Added $1 credits to the balance of player $0.
+MONEY_REM_SUCCESS: Removed $1 credits from the balance of player $0.
+VALIDATE_NOT_AN_INTEGER: This is not a valid number.
+PLAYER_ADDED_TO_TEAM: Tribute $0 was added to your team.
+TEAMS_ARE_DISABLED: Teams are disabled on this server.
+PLAYER_REMOVED_FROM_TEAM: Tribute $0 was removed from your team.
+TEAM_MEMBER_DIED: Your team member $0 died. Watch out!
+YOUR_TEAM_IS_EMPTY: Your team is empty.
+YOUR_TEAM: "Your team: $0"
+ALIVE_TRIBUTES: Alive tributes
+NONE: None
+HEALTH: Health
+KILLS: Kills
+DEATHS: Deaths
+DEATH: Death
+WINS: Wins
+YOUR_STATS: Your stats
+GAMES_PLAYED: Games played
+GAME: Game
+STATS_TOP_KILLS: Top 10 Killers
+STATS_TOP_WINS: Top 10 Winners
+STATS_TOP_DEATHS: Top 10 Deaths
+KIT_DESC_ITEMS: Items
+KIT_DESC_ABILITIES: Abilities
+SPECTATING_DISABLED: Spectating is disabled on this server.
+TRIBUTE_DEATH_AFTER_TIME: "Tribute $0 - Died after $1 minutes."
+TRIBUTE_DEATH_AFTER_SECONDS: "Tribute $0 - Died in the first seconds of the game."
+COMPASS_SET_TO_CORNUCOPIA: Your compass is now pointing towards the spawn.
+COMPASS_SET_TO_FEAST: Your compass is now pointing towards the feast.
+PLAYING_ON_MAP_NAME: "Playing on map $0."
+GAME_NOT_EVEN_STARTED: The game did not even start, yet!
+NETHER_AND_END_DISABLED: The nether and the end are disabled.
+
+POTION_ABSORPTION: Absorption
+POTION_BLINDNESS: Blindness
+POTION_CONFUSION: Confusion
+POTION_DAMAGE_RESISTANCE: Resistance
+POTION_FAST_DIGGING: Haste
+POTION_FIRE_RESISTANCE: Fire Resistance
+POTION_HARM: Harming
+POTION_HEAL: Healing
+POTION_HEALTH_BOOST: Health Boost
+POTION_HUNGER: Hunger
+POTION_INCREASE_DAMAGE: Strength
+POTION_INVISIBILITY: Invisibility
+POTION_JUMP: Jump Boost
+POTION_NIGHT_VISION: Night Vision
+POTION_POISON: Poison
+POTION_REGENERATION: Regeneration
+POTION_SATURATION: Saturation
+POTION_SLOW: Slowness
+POTION_SLOW_DIGGING: Mining Fatigue
+POTION_SPEED: Speed
+POTION_WATER_BREATHING: Water Breathing
+POTION_WEAKNESS: Weakness
+POTION_WITHER: Wither
+
+ENCHANT_PROTECTION_ENVIRONMENTAL: Protection
+ENCHANT_PROTECTION_FIRE: Fire Protection
+ENCHANT_PROTECTION_FALL: Feather Falling
+ENCHANT_PROTECTION_EXPLOSIONS: Blast Protection
+ENCHANT_PROTECTION_PROJECTILE: Projectile Protection
+ENCHANT_OXYGEN: Respiration
+ENCHANT_WATER_WORKER: Aqua Affinity
+ENCHANT_THORNS: Thorns
+ENCHANT_DAMAGE_ALL: Sharpness
+ENCHANT_DAMAGE_UNDEAD: Smite
+ENCHANT_DAMAGE_ARTHROPODS: Bane of Arthropods
+ENCHANT_KNOCKBACK: Knockback
+ENCHANT_FIRE_ASPECT: Fire Aspect
+ENCHANT_LOOT_BONUS_MOBS: Looting
+ENCHANT_DIG_SPEED: Efficiency
+ENCHANT_SILK_TOUCH: Silk Touch
+ENCHANT_DURABILITY: Unbreaking
+ENCHANT_LOOT_BONUS_BLOCKS: Fortune
+ENCHANT_ARROW_DAMAGE: Power
+ENCHANT_ARROW_KNOCKBACK: Punch
+ENCHANT_ARROW_FIRE: Flames
+ENCHANT_ARROW_INFINITE: Infinity
+ENCHANT_LUCK: Luck of the sea
+ENCHANT_LURE: Lure
+
+DEFAULT_ABILITY_1_DESC: "Arrows shot by you and hitting the ground explode."
+DEFAULT_ABILITY_2_DESC: "Players or mobs you shoot from afar will die instantly. Beware: Helmets protect from Headshots!"
+DEFAULT_ABILITY_3_DESC: "Using a rotten flesh will summon your zombie armee."
+DEFAULT_ABILITY_4_DESC: "You will explode on your death."
+DEFAULT_ABILITY_5_DESC: "When hitting a player or mob with a spider eye, there is a chance to poison him."
+DEFAULT_ABILITY_6_DESC: "Using a blaze rod will summon lightning."
+DEFAULT_ABILITY_7_DESC: "Breaking a log using an axe will break all others above it too."
