@@ -29,3 +29,5 @@ aliases:
   - repair
   ehita:
   - rc
+  vaatle:
+  - spectate $1-
