@@ -1,0 +1,20 @@
+# The character (or set of characters) representing a second
+character: "||"
+
+# This happens while a player is tagged in combat
+# IMPORTANT: Use one of the sounds listed here: https://goo.gl/GDxBIR (Sounds for all versions)
+on-tag:
+  text: "&eOled võitluses: &a{left}&c{right} &e{time} sekundit"
+  sound:
+    type: NONE
+    volume: 1
+    pitch: 1
+
+# This happens when the specified time has passed
+# IMPORTANT: Use one of the sounds listed here: https://goo.gl/GDxBIR (Sounds for all versions)
+on-untag:
+  text: '&aVõid nüüd ohutult välja logida.'
+  sound:
+    type: NONE
+    volume: 1
+    pitch: 1

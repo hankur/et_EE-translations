@@ -1,0 +1,28 @@
+# do not touch the config version below, it will break the plugin!
+configversion: 1.2
+messages:
+    general:
+        prefix: '&2&lPVP >'
+    request:
+        received: '&eSulle on saadetud %sender% poolt duelli kutse. Vastu võtmiseks tee "/duell nõustu %sender%"'
+        sent: '&aSaatsid duelli kutse mängijale %target%'
+        alreadysent: 'Juba saatsid duelli kutse mängijale %target%'
+        notonline: '&b%target% &cpole sees, kas sa kirjutasid nime õigesti?'
+        alreadyinduel: '&b%target% &con juba duellil!'
+    deathcause:
+        player: '%player% tapeti %killer% poolt!'
+        other: '%player% tapeti duellis!'
+    starting:
+        broadcast: '&a1vs1 hakkab &b%sender% &aja &b%acceptor% vahel.'
+        title: '&aDuell algab:'
+        subtitle: '&b%seconds%'
+    started:
+        broadcast: ''
+        actionbar: '&c1vs1 lõpeb &b%seconds% pärast'
+    ended:
+        reward: '&aSa võitsid duelli! Palju õnne!'
+    error:
+        noduelarenas: '&cERROR, There are no duel arenas!, please contact a member of staff.'
+        forcefullycancelled: '&c1vs1 lõppes võitjata'
+        commandnotallowed: '&cSa ei saa seda kasutada 1vs1 ajal.'
+        cannottduelself: '&cSa ei saa isendaga võidelda.'

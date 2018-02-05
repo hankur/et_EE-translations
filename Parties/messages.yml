@@ -1,0 +1,294 @@
+# 
+# Parties Messages configuration file
+#
+# For a better configuration:
+# - Use Notepad++
+#   - View -> Symbols -> Show White Space and TAB (Active)
+#   - Don't use arrows, but spaces
+# - Setting format editor to YAML
+#
+#
+# Available tags:
+# ColorCodes (ex: &1, &2, &3, &a, &b, &c, &r, &l)
+# %party% = Show name of party
+# %desc% = Show party description
+# %motd% = Motd of the party
+# %kills% = Kills of the party
+# %prefix% = Prefix of the party
+# %suffix% = Suffix of the party
+# %players% = Number of players online in the party
+# %sender% or %player% = Show name of sender/player
+# %rank% = Show a customizable string (format-rank-leader and format-rank-member)
+# %message% = Show the message of player
+# %world% = Show the name of world of sender/player (ex: world_nether)
+# %group% = If PEX/GM is active will display the name of group
+# %price% = Price of the command (Only some commands, see config.yml)
+#
+# You can use \n for ENTER 
+#
+# Special tag: %permission% = Name of missing permission
+no-permission: "&cSul pole ligipääsu sellele käsklusele"
+no-permission-in-party: "&cSa pead olema %rank%, et sooritada käsklust"
+invalid-command: "&cTundmatu käsklus"
+cant-hit-mates: "&cSa ei saa lüüa oma tiimikaaslasi"
+warn-on-hit-leaders: "&c%player% üritas lüüa %victim%!"
+no-party: "&cSa pole tiimis"
+configuration-reloaded: "&aConfiguration reloaded"
+# Special tags: %version% = The version of the update | %thisversion% = The version of your plugin
+update-available: "&9Parties %thisversion% found an update: %version%"
+# Special tags: %exp% = Experience gained | %exptotal% = Total experience | %mob% = Mob type name (Ex. Skeleton, Zombie)
+exp-gained: "&bYou killed a %mob%, you gained %exp% experience"
+exp-gained-from-other: "&b%player% has killed a %mob%, you gained %exp% experience"
+# Joined into a default party
+default-joined: "&bSa liitusid tiimiga %party%"
+p:
+    wrong-command: "&cEbasobivad argumendid: Type &7/p <message>"
+create:
+    party-created: "&l&bSa oled loonud tiimi %party%\n&r&bTee &7/party invite &bet kutsutada oma s�pru"
+    party-fixed-created: "&l&bYou have created the fixed party %party%"
+    name-already-exist: "&cTiimi nimi %party% juba eksisteerib, vali teine nimi"
+    already-in-party: "&cSa oled juba tiimis!"
+    too-long-name: "&cTiimi nimi on liiga pikk!"
+    too-short-name: "&cTiimi nimi on liiga lühike!"
+    invalid-name: "&cTundmatud märgid. Kasuta: a-Z or 0-9."
+    censored-name: "&cTiimi nimi sisaldab keelatuid sõnu!"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party create <name>"
+password:
+    changed: "&aVahetasid tiimi parooli"
+    removed: "&aEemaldasid tiimi parooli"
+    # Special tags: %password% = tiimi uus parool
+    broadcast-changed: "%player% muutis tiimi parooli"
+    invalid-chars: "&cTundmatud märgid. Kasuta: a-Z or 0-9. Min 1 and max 16 chars."
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party password <password>"
+join:
+    joined: "&aSa liitusid tiimiga %party%"
+    player-joined: "&b&l%player% liitus tiimiga"
+    max-player-reached: "&cTiim on täis!"
+    already-in-party: "&cSa oled juba tiimis!"
+    wrong-password: "&cVale parool!"
+    no-exist: "&cSelline tiim ei eksisteeri"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party join <party> [password]"
+accept:
+    welcome-player: "&b&lSa liitusid tiimiga %party%"
+    player-joined: "&b&l%player% liitus tiimiga"
+    invite-accepted: "&a%player% võttis su kutse vastu"
+    accepted: "&aSa võtsid kutse vastu"
+    max-player-reached: "&cTiim on täis!"
+    already-in-party: "&cSa oled juba tiimis!"
+    no-invite: "&cSul pole ühtegi kutset ootel"
+    no-exist: "&cSee kutse ei eksisteeri enam"
+deny:
+    invite-denied: "&7%player% keeldus kutsest"
+    denied: "&7Sa keeldusid tiimi kutsest"
+    no-invite: "&cSul pole ühtegi kutset ootel"
+    no-exist: "&cSee kutse ei eksisteeri enam"
+ignore:
+    header: "&b&lNimekiri tiimidest mida sa eirad:"
+    list-ignored-color: "&c"
+    list-ignored-separator: "&7, "
+    list-ignored-empty: "&7Mitte keegi"
+    party-ignored: "&7Eirad %party% kutseid"
+    party-deignored: "&7Sa lõpetasid %party% eiramise"
+    no-exist: "&cSelline tiim ei eksisteeri"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party ignore [party]"
+leave:
+    bye-player: "&b&lSa lahkusid tiimist %party%"
+    player-leaved-from-party: "&b&l%player% lahkus tiimist"
+    party-disbanded: "&b&lTiim on tegevus on lõpetatud, kuna juht lahkus."
+info:
+    # Special tags:
+    # List rank members: %list_RANK% (Example: %list_member%, %list_moderator% (%list_leader% remember it's unique)
+    # Number rank members: %number_RANK%
+    # %online% = List online players | %onlinenumber% = Number of online players
+    content:
+    - "&b============ &l%party%'s Info &r&b============"
+    - "&b&lDescription&r&7: %desc%"
+    - "&b&lMotd&r&7: %motd%"
+    - "&bLeader&7: %list_leader%"
+    - "&bMods&7: %list_moderator%"
+    - "&bMembers&7: %list_member%"
+    - "&bOnline&7: %onlinenumber%"
+    player-online-prefix: "&b"
+    player-offline-prefix: "&7"
+    player-separator: "&7, "
+    player-empty: "&7Mitte keegi"
+    someone-player: "&6Keegi"
+    missing: "&7Mõõda"
+    no-exist: "&cTiim %party% ei eksisteeri"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party info [party]"
+members:
+    # List rank members: %list_RANK% (Example: %list_member%, %list_moderator% (%list_leader% remember it's unique)
+    # Number rank members: %number_RANK%
+    content:
+    - "&b&lList members of the party %party%"
+    - "&b&lLeader&r&7: %list_leader%"
+    - "&bMods&7: %list_moderator%"
+    - "&bMembers&7: %list_member%"
+    player-online-prefix: "&b"
+    player-offline-prefix: "&7"
+    someone-player: "&6Keegi"
+    player-separator: "&7, "
+    player-empty: "&7Mitte keegi"
+    no-exist: "&cSelline tiim %party% ei eksisteeri"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party members [party]"
+desc:
+    # Special tag: %desc% = Description of the party
+    changed: "&bTiimi kirjeldus muudetud %desc%"
+    removed: "&bTiimi kirjeldus eemaldatud"
+    invalid-chars: "&cTundamtud märgid. Kasuta: a-Z or 0-9. Min 3 and max 16 chars."
+    censored-name: "&cKirjeldus sisaldab keelatuid sõnu!"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party desc <description/remove>"
+motd:
+    # Special tag: %motd% = MOTD (Message of the Day) of the party
+    changed: "&bTiimi päevasõnum muudetud"
+    removed: "&bTiimi päevasõnum eemaldatud"
+    header: "&bTiimi päeva sõnum:"
+    color-motd: "&b"
+    footer: ""
+    invalid-chars: "&cTundamtud märgid. Sa võid kasutada ''. , /''. Min 3 and max 100 chars."
+    censored-name: "&cKirjeldus sisaldab keelatuid sõnu!"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party motd <motd/remove>"
+chat:
+    enabled: "&aVestlus pandud tiimi režiimile"
+    disabled: "&aVestlus pandud avaliku režiimile"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party chat [on/off]"
+list:
+    # Special tags: %number% = Number parties online | %page% = Current list page | %maxpages% = How many pages exist
+    header: "&b============ &lOnline Parties List &r&b============"
+    sub-header: ""
+    no-one-online: "&7Keegi"
+    format-party: "&b%party%&7[&6Online %players%&7] %desc%"
+    footer: "&b================ &lPage %page% of %maxpages% &r&b================"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party list [page]"
+invite:
+    only-online: "&cSa saad ainult sees mängijaid tiimi kutsuda"
+    max-player-reached: "&cTiim on täis!"
+    already-party: "&c%player% on juba tiimis"
+    already-invite: "&c%player% juba kutsuti"
+    no-permission-player: "&c%player% doesn't have permissions to join"
+    invite-send: "&bSa kutsusid %player% tiimi"
+    invite-rec: "&b%player% kutsus sind oma tiimi\n&bEt nõustuda/keelduda kutset tee &7/party <accept/deny>"
+    invite-timeout: "&7Sa ei võtnud kutset vastu"
+    invite-noresponse: "&7%player% ei võtnud tiimi kutset vastu"
+    invite-revoked-send: "&7Revoked invite sent to %player%"
+    invite-revoked-rec: "&7Saadud kutse tiimist %party% on tühistatud"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party invite <name>"
+prefix:
+    changed: "&bTiimi eesliide muudetud %prefix%"
+    removed: "&bTiimi eesliide eemaldatud"
+    invalid-chars: "&cInvalid characters. Use: a-Z or 0-9. Min 3 and max 6 chars."
+    censored-name: "&cEesliide sisaldab keelatuid sõnu!"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party prefix <prefix/remove>"
+suffix:
+    changed: "&bTiimi tagaliide muudetud %suffix%"
+    removed: "&bTiimi tagaliide eemaldatud"
+    invalid-chars: "&cTundmatud märgid. Kasuta: a-Z or 0-9. Min 3 and max 6 chars."
+    censored-name: "&cTagaliide sisaldab keelatuid sõnu!"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party suffix <suffix/remove>"
+kick:
+    kick-send: "&b&lSa viskasid %player% oma tiimist välja!"
+    kick-up-rank: "&cSa ei saa oma ülemust välja visata!"
+    kicked-from-party: "&bSa oled välja visatud tiimist %party%"
+    kicked-player-party: "&b&l%player% on välja visatud tiimist"
+    kick-send-other: "&bSa viskasid %player% oma tiimist välja"
+    other-no-member: "&c%player% pole sinu tiimis"
+    no-member: "&c%player% pole sinu tiimis"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party kick <name>"
+delete:
+    deleted: "&aTiim %party% kustutatud"
+    silent-delete: "&aTiim %party% vaikselt kustutatud"
+    warn: "&cSinu tiim on kustutatud"
+    no-exist: "&cTiim %party% ei eksisteeri"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party delete <party> [silent]"
+rename:
+    renamed: "&aTiim %old% ümber nimetatud %party%"
+    broadcast-party: "&aSinu tiim on ümber nimetatud %party%!"
+    no-exist: "&cTiim %party% ei eksisteeri"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party rename <party> <newname>"
+rank:
+    promoted: "&b&l%player% seisus muudetud %rank%"
+    no-member: "&c%player% pole sinu tiimis"
+    no-party: "&c%player% pole tiimi"
+    wrong-rank: "&cSeisus '%rank%' ei eksisteeri!"
+    already-rank: "&c%player% on juba %rank%!"
+    low-rank: "&cYou cannot edit players with an equivalent or higher rank!"
+    to-higher-rank: "&cSa ei saa ennast edutada samaväärsele või endast kõrgemale seisusele!"
+    no-degrade-yourself: "&cSa ei saa ennast madaldada!"
+    no-promote-yourself: "&cSa ei saa ennast edutada!"
+    wrong-command: "&cEbasobivad argumendid: Tee &7/party rank <player> <rank>"
+sethome:
+    setted-broadcast: "&aThe party have a new home!"
+    wrong-command: "&cWrong variables: Type &7/party sethome"
+home:
+    teleported: "&7Teleported to the party home"
+    # Special tag: %time% = Time of cooldown
+    teleport-in: "&7You will be teleported in %time% seconds..."
+    teleport-denied: "&7Teleport denied"
+    no-home: "&cThe home of the party isn't setted"
+    no-exist-party: "&cThe party doesn't exist"
+    wrong-command: "&cWrong variables: Type &7/party home"
+claim:
+    done: "&aGranted permission to the party"
+    removed: "&aRemoved permission to the party"
+    no-manager: "&cYou need to be the manager of the claim"
+    no-exist-claim: "&cAny claim found"
+    wrong-command: "&cWrong variables: Type &7/party claim <permission>\n&cPermissions: trust, container & access"
+spy:
+    activated: "&7Nüü4d sa oled spioon!"
+    disabled: "&7Sa pole enam spioon"
+database:
+    to-file: "&aCopied data from SQL to FILE"
+    to-sql: "&aCopied data from FILE to SQL"
+    sql-offline: "&cThe database SQL must be online!"
+    none: "&cCannot migrate from none database!"
+    wrong-command: "&cWrong variables: Type &7/party migrate <sql/file>"
+vault:
+    create-nomoney: "&cYou don't have enough money to create a party [%price%$]"
+    home-nomoney: "&cYou don't have enough money to use the home command [%price%$]"
+    sethome-nomoney: "&cYou don't have enough money to set the home [%price%$]"
+    desc-nomoney: "&cYou don't have enough money to set the description [%price%$]"
+    motd-nomoney: "&cYou don't have enough money to set the MOTD [%price%$]"
+    prefix-nomoney: "&cYou don't have enough money to set the prefix [%price%$]"
+    suffix-nomoney: "&cYou don't have enough money to set the suffix [%price%$]"
+    confirm:
+        any-cmd: "&cAny command to confirm"
+        warn-onbuy: "&aCommand '%cmd%' cost %price%$.\nType &7/party confirm&a to use it."
+        confirmed: "&aPerforming command."
+        wrong-command: "&cWrong variables: Type &7/party confirm"
+follow:
+    following-world: "&7Following %player% in %world%"
+    following-server: "&7Following party in %server%"
+help:
+    header: "&b================= &lHelp Party %page%/%maxpages% &r&b================="
+    help: "&b/party help [page] &7- Näitab abi lehti"
+    p: "&b/p <message> &7- Saada sõnum tiimile"
+    create: "&b/party create <name> &7- Tee uus tiim"
+    create-fixed: "&b/party create <name> [fixed] &7- Tee uus tiim"
+    join: "&b/party join <party> [password] &7- Liitu tiimiga"
+    accept: "&b/party accept &7- Nõustu tiimi kutsega"
+    deny: "&b/party deny &7- Keeldu tiimi kutsest"
+    ignore: "&b/party ignore [party] &7- Lisa/eemalda/näita eiratud tiime"
+    leave: "&b/party leave &7- Lahku oma tiimist"
+    info: "&b/party info [party] &7- Näita tiimi informatsiooni"
+    members: "&b/party members [party] &7- Näita liikmete nimekirja"
+    home: "&b/party home &7- Telepordid oma tiimi koju"
+    home-others: "&b/party home [party] &7- Teleport to the party home"
+    sethome: "&b/party sethome &7- Tee tiimi kodu"
+    desc: "&b/party desc <description/remove> &7- Lisa/eemalda kirjeldus"
+    motd: "&b/party motd <motd/remove> &7- Lisa/eemalda päevasõnum"
+    chat: "&b/party chat [on/off] &7- Lülita tiimi vestlus sisse/välja"
+    list: "&b/party list [page] &7- Näita sees olevate tiimide nimekirja"
+    invite: "&b/party invite <player> &7- Kutsu mängija oma tiimi"
+    password: "&b/party password <password> &7- Vaheta tiimi parool"
+    rank: "&b/party rank <player> <rank> &7- Vaheta mängija seisus"
+    prefix: "&b/party prefix <prefix/remove> &7- Lisa/eemalda eesliide"
+    suffix: "&b/party suffix <suffix/remove> &7- Lisa/eemalda tagaliide"
+    kick: "&b/party kick <player> &7- Viska mängija oma tiimist välja"
+    spy: "&b/party spy &7- Vaata teiste tiimide sõnumeid"
+    delete: "&b/party delete <party> &7- Kustutab tiimi"
+    rename: "&b/party rename <party> <newname> &7- Vahetab tiimi nime"
+    reload: "&b/party reload &7- Reload the configuration"
+    migrate: "&b/party migrate <sql/file> &7- Copy database to SQL/File"
+    claim: "&b/party claim <permission> &7- Grant permissions into the claim"
+dont-edit-this:
+    messages-version: 11

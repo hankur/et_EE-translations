@@ -1,0 +1,8 @@
+lang:
+  NO_PERMISSION_CHEST_NUMBER: §cSul ei ole selleks piisavalt õigusi.
+  NO_PERMISSION: §cSul ei ole selleks piisavalt õigusi.
+  INVALID_CHEST_NUMBER: §2§lLisakirst > §cSee number pole sobiv.
+  ADM_CHEST_USAGE: §cUse /admchest <player> <chest_number>
+  CHEST_NAME: §3§lLisakirst
+  NO_PERMISSION_CREATIVE: You cant use /chest while in creative gamemode
+command_name: kirst

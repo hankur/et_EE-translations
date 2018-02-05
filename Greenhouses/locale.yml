@@ -1,0 +1,126 @@
+###########################################################################################
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+# If this file is deleted, then it will be recreate at the next reload.                   #
+###########################################################################################
+general:
+   notavailable: "Greenhouses are not available in this world"
+   greenhouses: "Kasvuhooned"
+   biome: "Bioom"
+   owner: "Omanik"
+
+help:
+   help: "help"
+   make: "Tries to make a greenhouse"
+   remove: "Removes a greenhouse that you are standing in if you are the owner"
+   info: "How to make a greenhouse"
+   list: "Lists all the greenhouse biomes that can be made"
+   recipe: "Tells you how to make greenhouse biome"
+   opengui: "Opens the Greenhouse GUI"
+
+list:
+   title: "[Greenhouse Biome Recipes]"
+   info: "Use /greenhouse recipe <number> to see details on how to make each greenhouse"
+
+
+################
+#General Errors#
+################
+error:
+   #"Error: Invalid Player (check spelling)"
+   unknownPlayer: "That player is unknown."
+   noPermission: "You don't have permission to use that command!"
+   commandNotReady: "You can't use that command right now."
+   offlinePlayer: "That player is offline or doesn't exist."
+   unknownCommand: "Unknown command."
+   greenhouseProtected: "Greenhouse protected"
+   move: "Move to a greenhouse you own first."
+   notowner: "You must be the owner of this greenhouse to do that."
+   removing: "Removing greenhouse!"
+   notyours: "This is not your greenhouse!"
+   notinside: "You are not in a greenhouse!"
+   tooexpensive: "You cannot afford [price]" 
+   alreadyexists: "Greenhouse already exists!"
+   norecipe: "Cannot make a greenhouse!"
+   
+messages:
+   enter: "&eSisenen mängija [owner] kasvuhoonesse bioomiga [biome]."
+   leave: "&eLahkun [owner] kasvuhoonest."
+   youarein: "&eSa oled mängija [owner] kasvuhoones bioomiga [biome]."
+   removed: "&eKasvuhoonest on bioom eemaldatud."
+   removedmessage: "&eKasvuhoonet bioomiga [biome] enam ei ole!"
+   ecolost: "&cSinu kasvuhoone koordinaatidel [location] kaotas oma ökosüsteemi ja on eemaldatud."
+
+info:
+   title: "&A[Kuidas ehitada kasvuhoonet]"
+   instructions:
+     - '&eVaata juhendit foorumist:'
+     - 'foorum.nuhvel.eu/topic/2688'
+   info: "[Greenhouse Info]"
+   none: "Puudub"
+   nomore: "&4You cannot build any more greenhouses!"
+   onemore: "&6You can build one more greenhouse."
+   youcanbuild: "&AYou can build up to [number] more greenhouses!"
+   unlimited: "&ASa saad teha lõputul hulgal kasvuhooneid!"
+   welcome: "&BTere! Kliki siia, et saada abi."
+
+recipe:
+   hint: "Kasuta /gh list, et näha retseptide numbreid!"
+   wrongnumber: "Retsepti number peab olema 1 ja [size] vahepeal."
+   title: "[[biome] retsept]"
+   nowater: "Vett ei tohi olla."
+   noice: "Jääd ei tohi olla."
+   nolava: "Laavat ei tohi olla."
+   watermustbe: "Vesi > [coverage]% põrandast."
+   icemustbe: "Jää > [coverage]% põrandast."
+   lavamustbe: "Laava > [coverage]% põrandast."
+   minimumblockstitle: "[Minimaalne vajalike plokkide arv]"
+   nootherblocks: "Teisi plokke pole vaja."
+   missing: "Sa pole kasvuhoones."
+
+event:
+   broke: "Sa lõhkusid kasvuhoone ära!"
+   fix: "Paranda kasvuhoone ja kasuta uuesti käsku /gh."
+   cannotplace: "Kasvuhoone peale ei saa plokke panna!"
+   pistonerror: "Kasvuhoone peale ei tohi plokke lükata!"
+
+create:
+   noroof: "Kasvuhoonel pole katust!"
+   missingwall: "Vähemalt üks sein on puudu!"
+   nothingabove: "Katuse peal ei tohi olla ühtki plokki!"
+   holeinroof: "Katuses on auk või see pole tasane!"
+   holeinwall: "Seinas on auk või see pole tasane!"
+   hoppererror: "Ainult üks püüdja (hopper) on lubatud."
+   doorerror: "Üle nelja ukse pole lubatud!"
+   success: "Sa tegid kasvuhoone bioomiga [biome]! Vaheta korraks servereid, et näha muutusi."
+
+limits:
+   noneallowed: "Permissions do not allow you any greenhouses so [number] were removed."
+   limitedto: "Permissions limit you to [limit] greenhouses so [number] were removed."
+   
+
+##################################
+#Admin commands that use /gadmin #
+##################################
+
+#Help
+adminHelp:
+   reload: "reload configuration from file."
+   info: "provides info on the greenhouse you are in"
+
+#reload
+reload:
+   configReloaded: "Configuration reloaded from file."
+
+admininfo:
+   error: "Greenhouse info only available in-game"
+   error2: "Put yourself in a greenhouse to see info."
+   flags: "[Greenhouse Flags]"
+
+news:
+   headline: "[Greenhouse News]"
+
+controlpanel:
+   title: "&3Kasvuhooned"
+
+

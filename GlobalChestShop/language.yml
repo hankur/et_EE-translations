@@ -1,0 +1,188 @@
+#     _____ _       _           _  _____ _               _    _____ _                 
+#    / ____| |     | |         | |/ ____| |             | |  / ____| |                
+#   | |  __| | ___ | |__   __ _| | |    | |__   ___  ___| |_| (___ | |__   ___  _ __  
+#   | | |_ | |/ _ \| '_ \ / _` | | |    | '_ \ / _ \/ __| __|\___ \| '_ \ / _ \| '_ \ 
+#   | |__| | | (_) | |_) | (_| | | |____| | | |  __/\__ \ |_ ____) | | | | (_) | |_) |
+#    \_____|_|\___/|_.__/ \__,_|_|\_____|_| |_|\___||___/\__|_____/|_| |_|\___/| .__/ 
+#                                                                              | |    
+#                                                                              |_|  
+Buttons:
+  SellPrice:
+    Title: '&6Müügihind'
+    Description: '&7Kliki, et muuta müügihinda'
+  CancelAuction: '&cKatkesta selle müümine'
+  SearchButton:
+    Title: '&bOtsi esemeid'
+    Description: ''
+  PageView:
+    SinglePage: 'Lehekülg: %arg0'
+    LastPage: Viimane lehekülg
+    CurrentPage: 'Lehekülg: %arg0'
+    FirstPage: Esimene lehekülg
+  DeleteShop: '&cKustuta pood'
+  EditAdminShop:
+    Toggle:
+      'OFF':
+        Description: '&9click to &aenable'
+        Title: '&7AdminShop is &cdisabled'
+      'ON':
+        Title: '&7AdminShop is &aenabled'
+        Description: '&9click to &cdisable'
+    ExitSave:
+      Title: Save and exit
+      Description: '&7click here to exit'
+  PolarQuestion:
+    'YES': Jah
+    NoWithoutSave: '&cNo, leave WITHOUT saving!'
+    SubmitBuy: '&cOled kindel, et soovid seda osta?'
+    CreateAuction: '&cOled kindel, et tahad selle müügile panna?'
+    SuretoBuy: '&cOled kindel, et soovid osta?'
+    SubmitSell: '&cOled kindel, et soovid müüa?'
+    'NO': Ei
+    CancelAuction: '&cAre you sure you want to cancel?'
+  AuctionInfo:
+    SellPriceEach: '&7Tükihind müümisel:  &c%arg0'
+    Title:
+      ERROR: not available
+      AdminShop: AdminShop
+      LocalShop: Player offer
+    Seller: '&7Müüja:  &9%arg0'
+    Status:
+      Ended: '&7Staatus: &clõpetatud'
+      Expired: '&7Staatus: &caegunud'
+      Active: '&7Staatus: &2aktiivne'
+      Canceled: '&7Staatus: &4katkestatud'
+    Amount: '&7Kogus: &6%arg0'
+    PriceEach: '&7Tükihind:  &c%arg0'
+    PriceTotal: '&7Hind kokku:  &c%arg0'
+    DateStarted: '&7Algatatud: %arg0'
+    BuyPriceEach: '&7Tükihind ostmisel:  &c%arg0'
+    DateEnded: '&7Lõpetatud: %arg0'
+    Buyer: '&7Ostja:  &9%arg0'
+  AuctionHistory:
+    Title: Ülevaade
+    Description: Tehingute ajalugu
+  BuyPrice:
+    Description: '&7Kliki, et muuta ostuhinda'
+    Title: '&6Ostuhind'
+  EmptyListIcon:
+    Title: '&4empty'
+    Description: ''
+  SellButtons:
+    Title: '&9Müü'
+  AuctionCreate:
+    Description: '&7Kliki siia, et müüa'
+    Title: '&2Pane ese müüki'
+  SetBuyPriceTitle: '&6Pane ostuhind'
+  AmountButtons:
+    Description: '&7Kasuta shifti, et stackida'
+    Title: '&6Kogus'
+  CreateAuction:
+    Description: '&7Kliki siia, et müüa oma ese'
+    Title: '&2Pane ese müüki'
+  Finish: '&aLÕPETA - pane ese müüki'
+  CloseButtons:
+    Description: Sulge see menüü
+    Title: SULGE
+  CreateAdminShop:
+    Title: '&2Create / Edit Adminshop'
+    Description: '&7click to create / edit an AdminShop'
+  MoneyButtons:
+    Title: '&6Sinu raha'
+  "SellAll\t": '&aMüü nii palju kui võimalik'
+  Next: '&aJärgmine'
+  BuyButtons:
+    Title: '&9Osta'
+  SellAllButtons:
+    Title: '&9Müü kõik'
+  SellSingle: '&aPane need esemed müüki'
+  FindSimillarAuctions:
+    Description: ''
+    Title: '&9find simillar auctions'
+  ChooseItem:
+    Description: '&avõi kasuta shift-klikki'
+    Title: '&aAseta ese siia'
+  AllPlayerHistory:
+    Description: global history - admins only
+    Title: Auction overview
+  BackButtons:
+    Description: Mine tagasi
+    Title: TAGASI
+  Free: '&aTasuta'
+  SearchButtonFindPlayer:
+    Title: '&bSearch for player'
+GuiTitles:
+  Warning: '&cHoiatus'
+  AdminShop: '&6 AdminShop'
+  AllLocalChestShop: '&6 All LocalChestShops'
+  AllItemsInCategories: Kõik esemed
+  AuctionSellItem: '&aMüü seda eset'
+  CancelAuction: '&cKatkestan tehingu'
+  History:
+    CanceledAuctions: '&6Katkestatud tehingud'
+    RunningAuctions: '&aKäivad tehingud'
+    BoughtAuctions: '&9Ostetud esemed'
+    Expired: '&cAegunud tehingud'
+    SoldAuctions: '&bMüüdud esemed'
+  SetSellPrice: '&6Muuda ostuhinda'
+  LocalChestShop: '&0LocalChestShop'
+  EndedAuctionTitle: '&7 See tehing on lõppenud!'
+  AuctionPage: '&8Müügisaal'
+  Search: '&0Otsingutulemused: "&2%arg0&0"'
+  CreateAdminShop: '&2Create new Adminshop'
+  CreateAuction: '&2Loo uus müük'
+  AllAuctions: '&6 Kõik esemed'
+  EditAdminShop: '&6Edit AdminShop'
+  AuctionChangePrice: '&6Muudan hinda'
+  BuyAuction: Ostan eset
+Messages:
+  MoneyDeposit: '&2&lPood > &aSaid &l%arg0 &akrooni!'
+  WorldNotFound: '&c You cannot access the shop system in this world'
+  ItemIsDamaged: '&cKahjustatud eset ei saa müüa'
+  MoneyDepositTax: '[BANK] You have received %arg0(%arg1 are tax)'
+  InformAboutBuy: '&2&lPood > &a%arg0 ostis Sinu eseme: %arg1 %arg1'
+  AdminShopIsDisabled: '&cThis AdminShop is not available!'
+  Inventory:
+    NoSpace: '&cSu kotis pole piisavalt ruumi!'
+    NoMoney: '&cSul pole selleks piisavalt raha!'
+    NoItem: '&cSul ei ole seda eset!'
+  SearchInstructionsAnvilGui: '&asearch for:'
+  AuctionAllreadyEnded: '&cSee ese on juba ära ostetud.'
+  TooManyAuctions: '&cSul ei saa olla müügil rohkem kui %arg0 eset.'
+  NoChestFound: '&cYou can only create shops 1 block away from a chest'
+  SearchInstructions: '&aKirjuta vestlusaknasse eseme nimi, mida Sa otsid.'
+  TooSlowAuctionEnded: '&cSee ese ei ole enam müügil!'
+  CreatedAuction: '&aSa panid edukalt uue eseme müüki!'
+  ItemSold: '&aSa müüsid just eseme!'
+  PriceCantBeLessThanZero: '&cHind ei saa olla negatiivne.'
+  BroadcastSell: '&a[GlobalChestShop]  &6%arg0 &ahas purchased &6%arg1 &afor %arg2
+    &aeach from %arg3&a.'
+  QuestionSaveChanges: '&cSave all changes?'
+  TooManyShops: '&cSul on juba liiga palju poode.'
+  MoneyWithdrawn: '&2&lPood > &e&l%arg0 &ekrooni võeti Sinu kontolt.'
+  ItemBought: '&aSa ostsid eseme &l%arg0'
+  ChooseItem: '&aAseta müügile minev ese keskele.'
+  BuyCommandWrongUsage: '&7/gcs buy &c<esemeNimi | hand>'
+  WarningBuyPriceGreaterSellPrice: '&cOstmise hind ei saa olla kõrgem kui müüimse
+    hind!'
+  PermissionWarning: '&cSul pole selleks piisavalt õigusi.'
+  RemovedAuction: '&2&lPood > &cTehing katkestatud!'
+  BroadcastCreationOfNewAuction: '&a[GlobalChestShop]  &6%arg0 &ahas created a new
+    global auction: &6%arg1 %arg2 &afor &6%arg3 &aeach.'
+  ItemNotAllowed: '&cSa ei saa seda eset siin müüa.'
+  CanNotDeleteShopTooManyAuctions: '&cThis shop still contains running auctions. To
+    delete a shop you have to cancel all your auctions first.'
+  NoChestOwner: '&cIt seems this chest is not yours. If it is yours, place the chest
+    again!'
+DefaultCategories:
+  Miscellaneous: Mitmesugune
+  DecorationBlocks: Dekoratsioon
+  Transportation: Liikumine
+  BuildingBlocks: Ehitamine
+  Materials: Materjalid
+  Redstone: Punakivi
+  Combat: Võitlus
+  Tools: Tööriistad
+  Foodstuff: Toiduained
+  Brewing: Võlujoogid
+Version_DONT_CHANGE_THIS!: '1.0'

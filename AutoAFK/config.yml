@@ -1,0 +1,29 @@
+# List of messages you can edit
+messages:
+    # Message sent when player is put into AFK mode
+    # Variable %player% is supported
+    afk-on: '&e%player% on nüüd eemal.'
+    # Message sent when player is active againg
+    # Variable %player% is supported
+    afk-off: '&e%player% on nüüd tagasi.'
+    # Message sent after successful reload
+    reload: '&aConfiguration file reloaded!'
+    # Message sent when console can't use a command
+    no-console: '&cThis command can only be used in-game.'
+    # Message sent when anti-spam blocks the usage of /afk command
+    # Variable %timeLeft% is supported
+    anti-spam: '&2&lEemal > &cSa pead ootama veel %timeLeft% sekundit enne selle käsu uuesti kasutamist.'
+# Options for automatic AFK kick
+kick:
+    # List of commands that are executed when player is supposed to be kicked (without "/")
+    # Variable %player% is supported
+    commands:
+      - 'kick %player% Sind visati välja, sest olid ebaaktiivne.'
+# Options for automatic AFK countdown - TitleAPI REQUIRED FOR 1.10 OR LOWER
+countdown:
+    # Title message sent on countdown (can be left empty: '')
+    # Variable %count% is supported
+    title: '&a&l%count%'
+    # Subtitle message sent on countdown (can be left empty: '')
+    # Variable %count% is supported
+    subtitle: '&bTee midagi, muidu muutud ebaaktiivseks!'

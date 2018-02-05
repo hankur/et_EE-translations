@@ -1,0 +1,6 @@
+messages:
+  spawnset: '&7Spawn set in world {WORLD}!'
+  delspawn: '&7Spawn removed in world {WORLD}'
+  teleported: '&dVupsti!'
+  teleportcancelmove: '&2&lAlguspunkt > &cTeleportimine katkestatud, ses Sa liikusid.'
+  nospawnset: '&7There is no spawn set yet in world {WORLD}'

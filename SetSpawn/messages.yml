@@ -1,0 +1,6 @@
+messages:
+  spawn: '&7Teleported to spawn'
+  spawnset: '&7Spawn set!'
+  pleasewait: '&7Please wait &9{1} &7seconds.'
+  canceled: '&cTeleportation canceled.'
+  permissions: '&cNo permissions.'

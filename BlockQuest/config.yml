@@ -1,0 +1,16 @@
+find-block-commands:
+- title %player% times 20 60 20
+- title %player% subtitle {"text":"%blocksLeft% pead on veel leidmata!","color":"aqua"}
+- title %player% title {"text":"Leidsid looma pea!","color":"green"}
+all-blocks-found-commands:
+- title %player% times 20 60 20
+- title %player% subtitle {"text":"Kõik pead on leitud!","color":"aqua"}
+- title %player% title {"text":"Leidsid viimase looma pea!","color":"green"}
+already-found-commands:
+- title %player% times 20 60 20
+- title %player% subtitle {"text":"See pea on juba leitud, %blocksLeft% on veel järel!","color":"aqua"}
+- title %player% title {"text":""}
+already-found-all-blocks:
+- title %player% times 20 60 20
+- title %player% subtitle {"text":"Kõik pead on juba leitud!","color":"aqua"}
+- title %player% title {"text":""}

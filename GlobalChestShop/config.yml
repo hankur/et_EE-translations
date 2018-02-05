@@ -1,0 +1,20 @@
+#     _____ _       _           _  _____ _               _    _____ _
+#    / ____| |     | |         | |/ ____| |             | |  / ____| |
+#   | |  __| | ___ | |__   __ _| | |    | |__   ___  ___| |_| (___ | |__   ___  _ __
+#   | | |_ | |/ _ \| '_ \ / _` | | |    | '_ \ / _ \/ __| __|\___ \| '_ \ / _ \| '_ \
+#   | |__| | | (_) | |_) | (_| | | |____| | | |  __/\__ \ |_ ____) | | | | (_) | |_) |
+#    \_____|_|\___/|_.__/ \__,_|_|\_____|_| |_|\___||___/\__|_____/|_| |_|\___/| .__/
+#                                                                              | |
+#                                                                              |_|
+Appearance:
+  Sign:
+    localChestShop: '&a&lKohalik pood'
+    globalChestShop: '&a&lGlobaalne pood'
+    adminShop: '&a[AdminShop]'
+    seconLineColor: '&2'
+    AllItems:
+      signFooter: Kõik esemed
+      displayItem: COMPASS
+    AllLocalShops:
+      signFooter: all chest-shops
+      displayItem: COMPASS
