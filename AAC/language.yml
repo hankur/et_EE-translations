@@ -19,8 +19,6 @@ relog_message: "Oota paar sekundit enne uuesti sisse logimist."
 too_many_shots: "Sa lased vibuga liiga kiiresti. Oota viis sekundit ja proovi uuesti."
 allow_bow: "Sa võid jälle oma vibu kasutada."
 
-# Staff chat
-prefix_to_speak: "§"
 # This will also be used for the notifications from aacstaffnotify in the config
 format: "&2&lHäkid > &e{sender}&r: "
 
