@@ -8,4 +8,6 @@ Selleks pead:
 4. tegema vajalikud muudatused,
 5. vajutama "Propose file change"
 6. ning lõpuks "Submit pull request".
+
+
 *Tegelikud sammud võivad veidi erineda, kuid üldjoontes käib see nii.*
