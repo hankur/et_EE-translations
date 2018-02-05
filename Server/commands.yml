@@ -1,0 +1,31 @@
+aliases:
+  eemal:
+  - afk
+  lenda:
+  - fly
+  lendamine:
+  - fly
+  surem:
+  - god
+  surematus:
+  - god
+  lõpukirst:
+  - ec
+  ravi:
+  - heal
+  töölaud:
+  - wb
+  spawner:
+  - espawner $1-
+  lähedal:
+  - near
+  tagasi:
+  - back
+  külasta:
+  - tpa $1-
+  lõim:
+  - warp
+  paranda:
+  - repair
+  ehita:
+  - rc

@@ -1,0 +1,18 @@
+# TsunamiListener by Ocean Sharma
+# http://youtube.com/themineshack
+
+options:
+# Message that is broadcasted when a player votes and is online
+  broadcast-message-online: '&2&lHääleta > &eMängija %name% hääletas serveri poolt: &l/hääleta'
+
+# Message that is broadcasted when a player votes and is offline
+  broadcast-message-offline: '&2&lHääleta > &eMängija %name% hääletas serveri poolt: &l/hääleta'
+
+# Message that is sent to voter
+  reward-message: '&2&lHääleta > &aTänan hääletamise eest, said hääletuskasti võtme!'
+
+# Message that is sent when a player executes /tvote
+  vote-command-message:
+  - '&a----===X &e&lVote Links &aX===----'
+  - '&7Vote Link 1: &fhttp://planetminecraft.com/'
+  - '&7Vote Link 2: &fhttp://minestatus.net/'

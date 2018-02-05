@@ -1,0 +1,26 @@
+No-Permission: '&cYou do not have permission.'
+Version-Not-Supported: '&cThis servers version is not supported.'
+Player-Not-Found: '&cPlayer is not found'
+Light-Level-Item-Name: '&eLight Level Detector'
+Light-Level-Item-Lore:
+- Right click the top of
+- a block to get the light
+- level and see if mobs will spawn.
+Texture-Finder-Item-Name: '&eSkull Texture Getter'
+Texture-Finder-Item-Lore:
+- Get the link of where
+- the texture fpr the skulls
+- skin is located, for you to download
+Commands-To-Log:
+  Enabled: true
+  list:
+  - say
+  - ban
+Check-For-Updates-On-Join: true
+API-Only: false
+NO-RECIPES: false
+Log-Plugin-Commands: true
+Scoreboard-Team-Unknown: '&cThe scoreboard team %team% was not found.'
+Particle-Not-Found: '&cParticle not found.'
+Invalid-Number: '&cInvalid number format error'
+Missing-Offset-Values: '&cMust have 3 offset values.'

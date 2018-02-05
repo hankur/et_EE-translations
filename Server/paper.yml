@@ -1,0 +1,5 @@
+messages:
+  kick:
+    authentication-servers-down: ''
+    flying-player: Lendamine pole siin maailmas lubatud.
+    flying-vehicle: Lendamine pole siin maailmas lubatud.

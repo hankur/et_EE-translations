@@ -1,0 +1,156 @@
+MainMenu:
+  MenuTitle: '&3Vali maskeering'
+  PlayerMenuItem: PLAYERSKULL:LozzTheDev
+  PlayerMenuLabel: '&e&lPlayer &fDisguise'
+  MobMenuItem: MOBEGG:Creeper
+  MobMenuLabel: '&2&lMob &fDisguise'
+  FallingBlockMenuItem: GRASS
+  FallingBlockMenuLabel: '&7&lFalling Block &fDisguise'
+  ItemMenuItem: DIAMOND
+  ItemMenuLabel: '&6&lItem &fDisguise'
+  ArmorStandMenuItem: ARMOR_STAND
+  ArmorStandMenuLabel: '&3&lArmor Stand &fDisguise'
+  BoatMenuItem: BOAT
+  BoatMenuLabel: '&1&lBoat &fDisguise'
+  EnderCrystalMenuItem: END_CRYSTAL
+  EnderCrystalMenuLabel: '&5&lEnder Crystal &fDisguise'
+  MineCartMenuItem: MINECART
+  MineCartMenuLabel: '&c&lMinecart &fDisguise'
+  UnDisguiseItem: PLAYERSKULL
+  UnDisguiseLabel: '&4&lUndisguise'
+  ExitItem: BARRIER
+  ExitLabel: '&cCancel/Exit &2&liDisguise&a&lGUI'
+  PlayerMenu:
+    MenuTitle: '&e&lPlayer &0Disguise&0-{menunum}/{totalmenus}'
+    ItemName: '&f&l{itemname}'
+    ItemLabel: '&aPlayer &e{itempos}&a Of &e{totalitems}'
+    PrevPageItem: DIAMOND
+    PrevPageLabel: '&fPrevious Player Page'
+    NextPageItem: DIAMOND
+    NextPageLabel: '&fNext Player Page'
+    ReturnItem: IRON_DOOR
+    ReturnLabel: '&6Return To &f&lMain Menu'
+    ExitItem: BARRIER
+    ExitLabel: '&cCancel/Exit &2&liDisguise&a&lGUI'
+  ArmorStandMenu:
+    MenuTitle: '&3&lArmor Stand &0Disguise'
+    NoArmsItem: BARRIER
+    NoArmsLabel: '&e&lNo Arms'
+    ArmsItem: ARMOR_STAND
+    ArmsLabel: '&e&lWith Arms'
+    ReturnItem: IRON_DOOR
+    ReturnLabel: '&6Return To &f&lMain Menu'
+    ExitItem: BARRIER
+    ExitLabel: '&cCancel/Exit &2&liDisguise&a&lGUI'
+  FallingBlockMenu:
+    MenuTitle: '&8&lFalling Block &0Disguise-{menunum}/{totalmenus}'
+    AllCoordsItem: DIAMOND_BLOCK
+    AllCoordsLabel: '&e&lAll Coordinates'
+    BlockCoordsItem: REDSTONE_BLOCK
+    BlockCoordsLabel: '&e&lBlock Coordinates'
+    ItemName: '&f&l{itemtype}'
+    ItemLabel: '&aFalling Block &e{itempos}&a Of &e{totalitems}'
+    PrevPageItem: DIAMOND
+    PrevPageLabel: '&fPrevious Falling Blocks Page'
+    NextPageItem: DIAMOND
+    NextPageLabel: '&fNext Falling Blocks Page'
+    ReturnItem: IRON_DOOR
+    ReturnLabel: '&6Return To &f&lMain Menu'
+    ExitItem: BARRIER
+    ExitLabel: '&cCancel/Exit &2&liDisguise&a&lGUI'
+  ItemMenu:
+    MenuTitle: '&6&lItem &0Disguise-{menunum}/{totalmenus}'
+    AmountItem: AMOUNTTYPE
+    AmountLabel: '&fAmount: &e&l{itemtype}'
+    ItemName: '&f&l{itemtype}'
+    ItemLabel: '&aItem &e{itempos}&a Of &e{totalitems}'
+    PrevPageItem: DIAMOND
+    PrevPageLabel: '&fPrevious Items Page'
+    NextPageItem: DIAMOND
+    NextPageLabel: '&fNext Items Page'
+    ReturnItem: IRON_DOOR
+    ReturnLabel: '&6Return To &f&lMain Menu'
+    ExitItem: BARRIER
+    ExitLabel: '&cCancel/Exit &2&liDisguise&a&lGUI'
+  HoldingMenu:
+    MenuTitle: '&c&l{itemname} &0Disguise&0-{menunum}/{totalmenus}'
+    ItemName: '&fHolding &e&l{itemtype}'
+    ItemLabel: '&aItem &e{itempos}&a Of &e{totalitems}'
+    PrevPageItem: EMERALD
+    PrevPageLabel: '&fPrevious Page'
+    NextPageItem: EMERALD
+    NextPageLabel: '&fNext Page'
+    ReturnItem: IRON_DOOR
+    ReturnLabel: '&6Return To &f&lPrev. Menu'
+    ExitItem: BARRIER
+    ExitLabel: '&cCancel/Exit &2&liDisguise&a&lGUI'
+  MobMenu:
+    MenuTitle: '&2&lMob &0Disguise&0'
+    ItemName: '&e&l{itemname} &fDisguise'
+    ItemLabel: '&aMob &e{itempos}&a Of &e{totalitems}'
+    PrevPageItem: EMERALD
+    PrevPageLabel: '&fPrevious Mobs Page'
+    NextPageItem: EMERALD
+    NextPageLabel: '&fNext Mobs Page'
+    ReturnItem: IRON_DOOR
+    ReturnLabel: '&6Return To &f&lMain Menu'
+    ExitItem: BARRIER
+    ExitLabel: '&cCancel/Exit &2&liDisguise&a&lGUI'
+    MobSubMenu:
+      MenuTitle: '&3&l{itemname}&0 Sub-Types-{menunum}/{totalmenus}'
+      ConfirmItem: WOOL:10
+      ConfirmLabel: '&aSet/Confirm &f&lDisguise'
+      ConfirmLore1: '&f&l{itemname}'
+      ConfirmLore2: '&e&l{itemtype}'
+      ReturnItem: IRON_DOOR
+      ReturnLabel: '&6Return To &f&lMob Menu'
+      ExitItem: BARRIER
+      ExitLabel: '&cCancel/Exit &2&liDisguise&a&lGUI'
+      AdultItem: MOBSKULL
+      AdultItemLabel: '&e&lAdult &f{itemname}'
+      BabyItem: MOBEGG
+      BabyItemLabel: '&e&lBaby &f{itemname}'
+      PoweredItem: TNT
+      PoweredItemLabel: '&e&lPowered &f{itemname}'
+      NotPoweredItem: BARRIER
+      NotPoweredItemLabel: '&e&lNot-Powered &f{itemname}'
+      SaddledItem: SADDLE
+      SaddledItemLabel: '&e&lSaddled &f{itemname}'
+      NotSaddledItem: BARRIER
+      NotSaddledItemLabel: '&e&lNot-Saddled &f{itemname}'
+      ChestItem: CHEST
+      ChestItemLabel: '&e&lChested &f{itemname}'
+      NotChestItem: BARRIER
+      NotChestItemLabel: '&e&lNot-Chested &f{itemname}'
+      HorseArmorItem: HORSEARMOR
+      HorseArmorItemLabel: '&e&l{itemtype} &fHorse Armor'
+      HorseStyleItem: HORSESTYLE
+      HorseStyleItemLabel: '&e&l{itemtype} &fMarkings'
+      HorseColorItem: HORSECOLOR
+      HorseColorItemLabel: '&e&l{itemtype} &fColor'
+      LlamaColorItem: LLAMACOLOR
+      LlamaColorItemLabel: '&e&l{itemtype} &fColor'
+      LlamaSaddleItem: LLAMASADDLE
+      LlamaSaddleItemLabel: '&e&l{itemtype} &fSaddle'
+      SizeItem: MOBSIZE
+      SizeItemLabel: '&fSize: &e&l{itemtype}'
+      OcelotTypeItem: OCELOTTYPE
+      OcelotTypeItemLabel: '&e&l{itemtype} &f{itemname}'
+      RabbitTypeItem: RABBITTYPE
+      RabbitTypeItemLabel: '&e&l{itemtype} &f{itemname}'
+      ColorTypeItem: COLORTYPE
+      ColorTypeItemLabel: '&e&l{itemtype} &fColor'
+      VillagerTypeItem: VILLAGERTYPE
+      VillagerTypeItemLabel: '&e&l{itemtype} &f{itemname}'
+      TamedItem: NAME_TAG
+      TamedItemLabel: '&e&lTamed &f{itemname}'
+      NotTamedItem: LONG_GRASS:1
+      NotTamedItemLabel: '&e&lUn-Tamed &f{itemname}'
+      AngryItem: BLAZE_POWDER
+      AngryItemLabel: '&e&lAngry &f{itemname}'
+      NotAngryItem: MOBSKULL:MHF_Wolf
+      NotAngryItemLabel: '&e&lNot-Angry &f{itemname}'
+      CollarColorItem: COLORTYPE
+      CollarColorItemLabel: '&e&l{itemtype} &fCollar'
+      VariantItem: VARIANTTYPE
+      VariantItemLabel: '&e&l{itemtype} &fColor'

@@ -1,0 +1,57 @@
+MobTypes:
+  bat: Bat,MHF_Bat
+  blaze: Blaze,MHF_Blaze
+  cave_spider: Cave Spider,MHF_Cavespider
+  chicken: Chicken,MHF_Chicken
+  cow: Cow,MHF_Cow
+  creeper: Creeper,MHF_Creeper
+  donkey: Donkey
+  elder_guardian: Elder Guardian
+  enderman: Enderman,MHF_Enderman
+  ender_dragon: Ender Dragon,MHF_Enderdragon
+  endermite: Endermite,MHF_Endermite
+  evoker: Evoker,MHF_Evoker
+  ghast: Ghast,MHF_Ghast
+  ghost: Ghost,MHF_Ghost
+  giant: Giant,MHF_Giant
+  guardian: Guardian,MHF_Guardian
+  horse: Horse,horse_head
+  husk: Husk
+  iron_golem: Iron Golem,MHF_Golem
+  llama: Llama
+  magma_cube: Magma Cube,Magmacube
+  mule: Mule
+  mushroom_cow: Mooshroom,MHF_MushroomCow
+  ocelot: Ocelot,MHF_Ocelot
+  pig: Pig,MHF_Pig
+  pig_zombie: Pig Zombie,MHF_PigZombie
+  polar_bear: Polar Bear,Polarbear
+  rabbit: Rabbit,MHF_Rabbit
+  sheep: Sheep,MHF_Sheep
+  shulker: Shulker,MHF_Shulker
+  silverfish: SilverFish,MHF_Silverfish
+  skeletal_horse: Skeleton Horse,SkeletonHorse
+  skeleton: Skeleton,MHF_skeleton
+  slime: Slime,MHF_slime
+  snowman: Snowman
+  spider: Spider,MHF_Spider
+  squid: Squid,MHF_Squid
+  stray: Stray,MHF_Stray
+  undead_horse: Zombie Horse,ZombieHorse
+  vex: Vex,MHF_Vex
+  villager: Villager,MHF_Villager
+  vindicator: Vindicator
+  witch: Witch,MHF_Witch
+  wither: Wither,MHF_Wither
+  wither_skeleton: Wither Skeleton
+  wolf: Wolf,MHF_Wolf
+  zombie: Zombie,MHF_Zombie
+  zombie_villager: Zombie Villager,Zombie_Villager
+  armor_stand: Armor Stand
+  boat: Boat
+  ender_crystal: Ender Crystal
+  falling_block: Falling Block
+  item: Item
+  minecart: MineCart
+  illusioner: Illusionist,MHF_illager
+  parrot: Parrot,MHF_Parrot
