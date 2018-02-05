@@ -1,0 +1,50 @@
+prefix: "§2§lPood > §r"
+iteminfo: "§aEseme info: §r"
+
+ACCESS_DENIED: "§cSul pole selleks piisavalt õigusi."
+
+NOT_ENOUGH_MONEY: "§cSul pole piisavalt raha!"
+NOT_ENOUGH_MONEY_SHOP: "§cPoe omaniku pole piisavalt raha!"
+
+CLIENT_DEPOSIT_FAILED: "Money deposit to your account failed!"
+SHOP_DEPOSIT_FAILED: "Money deposit to shop owner failed!"
+
+NO_BUYING_HERE: "§cSa ei saa siin osta!"
+NO_SELLING_HERE: "§cSa ei saa siin müüa!"
+
+NOT_ENOUGH_SPACE_IN_INVENTORY: "§cSu kotis pole piisavalt vaba ruumi!"
+NOT_ENOUGH_SPACE_IN_CHEST: "§cKirstus pole piisavalt vaba ruumi!"
+NOT_ENOUGH_ITEMS_TO_SELL: "§cSul pole piisavalt palju esemeid, et müüa!"
+
+NOT_ENOUGH_STOCK: "§cSee pood on tühjaks ostetud."
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: "§cSu poest on ese %material otsa saanud!"
+
+YOU_BOUGHT_FROM_SHOP: "§eSa ostsid eseme %item mängijalt %owner hinnaga %price."
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: "§aMängija %buyer ostis sinult eseme %item hinnaga %price."
+
+YOU_SOLD_TO_SHOP: "§eSa müüsid eseme %item mängijale %buyer hinnaga %price."
+SOMEBODY_SOLD_TO_YOUR_SHOP: "§aMängija %seller müüs sulle eseme %item hinnaga %price."
+
+YOU_CANNOT_CREATE_SHOP: "§cSul pole selleks piisavalt õigusi."
+NO_CHEST_DETECTED: "§cKirstu ei leitud!"
+INVALID_SHOP_DETECTED: "§cSee pood pole korrektselt tehtud!"
+CANNOT_ACCESS_THE_CHEST: "§cSul pole selleks piisavalt õigusi."
+
+PROTECTED_SHOP: "Successfully protected the shop with LWC!"
+SHOP_CREATED: "§aPood edukalt loodud!"
+SHOP_FEE_PAID: "You have been charged %amount"
+SHOP_REFUNDED: "You have been refunded %amount."
+ITEM_GIVEN: "Given %item to %player."
+
+RESTRICTED_SIGN_CREATED: "§aSilt edukalt loodud!"
+
+PLAYER_NOT_FOUND: "§cSellist mängijat ei leitud!"
+NO_PERMISSION: "§cSul pole selleks piisavalt õigusi."
+INCORRECT_ITEM_ID: "§cSa oled sisestanud ebakorrektse eseme ID!"
+NOT_ENOUGH_PROTECTIONS: "Could not create a protection!"
+
+CANNOT_CREATE_SHOP_HERE: "§cSa ei saa siia poodi luua!"
+
+TOGGLE_MESSAGES_OFF: "§eSa ei saa enam oma poodidest teateid."
+TOGGLE_MESSAGES_ON: "§eSa saad nüüd jälle oma poodidest teateid."
+
