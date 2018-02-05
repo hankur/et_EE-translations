@@ -1,0 +1,29 @@
+# AAC messages configuration file
+
+# Prefix (wooooo yeah)
+prefix: "&2&lHoiatus > &r"
+
+# Spam messages
+spam_too_fast: "Ära saada nii kiiresti sõnumeid!"
+spam_slow_chat: "Palun kirjuta aeglasemalt."
+spam_repeat: "Palun ära korda ennast."
+spam_repeat_other: "Sa ei saa seda uuesti öelda."
+
+# Command messages
+aac_kick_broadcast: " visati välja häkkimiskahtluse eest."
+ban_message: "You have been banned for hacking on this server."
+
+relog_message: "Oota paar sekundit enne uuesti sisse logimist."
+
+# Fastbow
+too_many_shots: "Sa lased vibuga liiga kiiresti. Oota viis sekundit ja proovi uuesti."
+allow_bow: "Sa võid jälle oma vibu kasutada."
+
+# Staff chat
+prefix_to_speak: "§"
+# This will also be used for the notifications from aacstaffnotify in the config
+format: "&2&lHäkid > &e{sender}&r: "
+
+# Combat logging
+killed_for_logging: "Sind tapeti võitluse ajal välja logimise eest. See on keelatud."
+logging_broadcast: "{player} tapeti võitluse ajal välja logimise eest."
