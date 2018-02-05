@@ -5,6 +5,7 @@ Anna oma panus Wabariigi paremaks tegemisele aidates meil tõlkida ja parandada 
 Tõlkefailid partneritelt:
 * https://github.com/DirolGaming/ASkyBlock_EST
 * https://github.com/EssentialsX/Essentials/blob/2.x/Essentials/src/messages_et.properties
+* https://github.com/Zrips/Jobs/blob/master/src/main/resources/locale/messages_et.yml
 
 ## KKK
 #### Kuidas saan aidata?
