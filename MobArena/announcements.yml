@@ -1,0 +1,79 @@
+arena-start: Las tapatalgud alaku!
+arena-end: Tapatalgud on l�bi.
+arena-does-not-exist: Selline areen ei eksisteeri. Tee &e/ma arenas&r nimekirja jaoks.
+arena-end-global: Tapatalgud &e%&r on l�bi! Tee &e/ma j %&r et liituda uute tapatalgudega!
+arena-join-global: Tapatalgud &e%&r algavad peagi! Tee &e/ma j %&r et liituda!
+arena-lboard-not-found: Sellel areenil pole edetabelit.
+arena-auto-start: Tapatalgud algavad automaatselt &c%&r sekundi p�rast.
+arena-start-delay: Tapatalgud algavad &e%&r sekundi p�rast.
+join-not-enabled: Areen pole saadaval.
+join-in-other-arena: Sa oled juba areenil! Lahku sellelt esimesena.
+join-arena-not-enabled: See areen pole saadaval.
+join-arena-not-setup: See areen pole valmis veel.
+join-arena-edit-mode: See areeni muudetakse.
+join-arena-permission: Sul pole ligip��su, et liituda selle areeniga.
+join-fee-required: 'Ebapiisavalt raha. Hind: &c%&r'
+join-fee-paid: 'Hind, et liituda oli: &c%&r'
+join-arena-is-running: Taptalgud juba k�ivad.
+join-already-playing: Sa juba m�ngid!
+join-arg-needed: Sa pead t�psustama areenat.
+join-no-permission: Sul pole ligip��su, et liituda areenadega.
+join-too-far: Sa oled liiga kaugel areenast, et liituda/vaadelda.
+join-empty-inv: Sa pead oma seljakotti t�hjendama, et liituda tapatalgudega.
+join-player-limit-reached: M�ngijate limiit on t�is.
+join-store-inv-fail: Eba�nnestus seljakotti taastada. Proovi uuesti.
+join-existing-inv-restored: Su vanad seljakotti asjad on tagastatud.
+join-player-joined: Sa liitusid tapatalgudega. Edu!
+leave-not-playing: Sa pole areenil.
+leave-not-ready: Sa polnud valmis �igeks ajaks! J�rgmine kord, vajuta rauaplokki,
+  et olla valmis.
+leave-player-left: Sa lahkusid areenilt. Ait�h, et m�ngisid!
+player-died: '&c%&r suri!'
+golem-died: S�bralik Golem suri!
+spec-player-spectate: Naudi m�ngu!
+spec-from-arena: Naudi �lej��nud m�ngu!
+spec-not-running: See areen ei t��ta.
+spec-empty-inv: T�hjenda oma seljakott esimesena!
+spec-already-playing: Sa ei saa vaadelda areenas!
+not-ready-players: 'Pole valmis: &c%&r'
+force-start-running: Tapatalgud  juba k�ivad.
+force-start-not-ready: Sa ei saa sund alustada, m�ngijad pole valmis.
+force-start-started: Sunniti tapatalgude alustamine.
+force-end-empty: Keegi pole tapatalgudes.
+force-end-ended: Sunniti tapatalgud l�petama.
+force-end-idle: Sa polnud piisavalt kiire!
+rewards-give: Siin on su k�ik auhinnad!
+lobby-drop-item: Praegusel ajal pole jagamine lubatud!
+lobby-player-ready: Sind on markeeritud kui valmis!
+lobby-pick-class: Sa pead k�igepealt valima endale klassi!
+lobby-class-full: Seda klassi ei saa enam v�tta, klassi limiit on t�is!
+lobby-not-enough-players: Pole piisavalt m�ngijaid, et alustada. Vaja on v�hemalt
+  &c%&r m�ngijat.
+lobby-right-click: L�� silti. �ra vajuta paremat klikki.
+lobby-class-picked: Sa valisid &e%&r oma klassiks!
+lobby-class-random: Sa saad suvalise klassi kui tapatalgud algavad.
+lobby-class-permission: Sul pole ligip��su, et kasutada seda klassi!
+lobby-class-price: See klass maksab &c%&r (paid on arena start).
+lobby-class-too-expensive: Sa ei v�imalda endale seda klassi (&c%&r)
+lobby-no-such-class: Sellist klassi pole nagu &c%&r.
+warp-to-arena: Teleportimine areenile pole lubatud!
+warp-from-arena: Teleportimine areenil pole lubatud!
+wave-default: Wave &b#%&r!
+wave-special: Wave &b#%&r! [ERILINE]
+wave-swarm: Wave &b#%&r! [SWARM]
+wave-supply: Wave &b#%&r! [VARUSTAMINE]
+wave-upgrade: Wave &b#%&r! [UUENDUS]
+wave-boss: Wave &b#%&r! [BOSS]
+wave-boss-ability: 'Boss kasutas v�imet: &c%&r!'
+wave-boss-low-health: Boss on peaaegu surnud!
+wave-reward: 'Sa just v�itsid auhinna: &e%&r'
+misc-list-players: 'Live players: &a%&r'
+misc-list-arenas: 'Saadaval tapatalgud: %'
+misc-command-not-allowed: Sa ei saa seda k�sklust areenil kasutada!
+misc-no-access: Sul pole ligip��su selle k�skluse jaoks.
+misc-not-from-console: Sa ei saa seda k�sklust konsoolist kasutada.
+misc-help: K�skluste nimekirja jaoks, tee &e/ma help&r
+misc-multiple-matches: Kas sa m�tlesid neid k�sklusi?
+misc-no-matches: Tundmatu k�sklus. Tee &e/ma help&r
+misc-ma-leave-reminder: Peameeles kasutada &e/ma leave&r kui sa oled l�petanud.
+misc-none: '&6<none>&r'

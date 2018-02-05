@@ -1,0 +1,254 @@
+########################
+#
+# GlowGUI - GiansCode 
+# Version - 1.0.8     
+# URL: https://www.spigotmc.org/resources/glowgui.19525/ 
+#
+########################
+#
+# Dependencies: 
+#  GlowAPI - https://www.spigotmc.org/resources/api-glowapi-1-9.19422/
+#  PacketListenerAPI - https://www.spigotmc.org/threads/api-packetlistenerapi-1-7-1-8-1-9.42729/
+#
+########################
+#
+#    Placeholders:
+#        - %player% - Used to replace the targetted players username
+#        - %color% - Used to replace the color specified in the GUI
+#
+########################
+#
+# menu:
+#     'nameMeAnything':
+#        type: "ITEM_NAME"
+#        data: 0 
+#        name: "My item for this gui"
+#        lore:
+#            - "&cMultilined lores are awesome!"
+#            - "&bYes they are!"
+#        amount: 1 
+#        position: 1
+#        color: AQUA
+#
+########################
+#
+# What do the nodes do?
+# [COLORS CAN BE FOUND HERE: http://docs.inventivetalent.org/glowapi/org/inventivetalent/glow/GlowAPI.Color.html]
+# [SUPPORTED ITEM NAMES CAN BE FOUND HERE: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html]
+#
+# type: "itemname" - This is the item that will be displayed in the GUI to respresent spot.
+# data: x - Determines what item meta is used. IE type: "WOOL" and data: 0 is White wool
+# name: "My item name" - Name that is displayed on the item
+# lore: "My lore, cool plugin!" - This will add a lore to the item, can be multilined; Check above example
+# amount: x - Determines the amount of items the type is displayed as.
+# position: x - Determines where in the GUI the item shall be placed at.
+# color: <color> - Determines what color the player will glow as if clicked this item.
+#
+########################
+
+# Change this to anything. Anything! Even /letmeglow
+customCommand: helenda
+
+# Inventory Options
+inventory:
+    rows: 3 # Amount of ROWS the GUI will have. 1 is 9 slots, 2 is 18, 3 is 27, etc
+    name: "&3&lHelenda" # Title of the inventory.
+    
+rainbowEffectInterval: 1 #How often should the rainbow effect change on a player (in seconds)
+
+menu:
+    '1':
+        type: "WOOL"
+        data: 3
+        name: "&6Helesinine"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 1
+        color: AQUA
+    '2':
+        type: "WOOL"
+        data: 15
+        name: "&6Must"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 2
+        color: BLACK
+    '3':
+        type: "WOOL"
+        data: 13
+        name: "&6Tumeroheline"
+        lore:
+        - '&7Kliki, et panna end sellist värvi helendama'
+        amount: 1
+        position: 3
+        color: DARK_GREEN
+    '4':
+        type: "WOOL"
+        data: 9
+        name: "&6Tsüaan"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 4
+        color: DARK_AQUA
+    '5':
+        type: "WOOL"
+        data: 11
+        name: "&6Tumesinine"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 5
+        color: DARK_BLUE
+    '6':
+        type: "WOOL"
+        data: 7
+        name: "&6Tumehall"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 6
+        color: DARK_GRAY
+    '7':
+        type: "WOOL"
+        data: 3
+        name: "&6Sinine"
+        lore:
+        - '&7Kliki, et panna end sellist värvi helendama'
+        amount: 1
+        position: 7
+        color: BLUE
+    '8':
+        type: "WOOL"
+        data: 10
+        name: "&6Lilla"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 8
+        color: DARK_PURPLE
+    '9':
+        type: "WOOL"
+        data: 14
+        name: "&6Tumepunane"
+        lore:
+        - '&7Kliki, et panna end sellist värvi helendama'
+        amount: 1
+        position: 9
+        color: DARK_RED
+    '10':
+        type: "WOOL"
+        data: 1
+        name: "&6Kuldne"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 10
+        color: GOLD
+    '11':
+        type: "WOOL"
+        data: 8
+        name: "&6Hall"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 11
+        color: GRAY
+    '12':
+        type: "WOOL"
+        data: 2
+        name: "&6Roosa"
+        lore:
+        - '&7Kliki, et panna end sellist värvi helendama'
+        amount: 1
+        position: 12
+        color: PURPLE
+    '13':
+        type: "WOOL"
+        data: 14
+        name: "&6Helepunane"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 13
+        color: RED
+    '14':
+        type: "WOOL"
+        data: 0
+        name: "&6Valge"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 14
+        color: WHITE
+    '15':
+        type: "WOOL"
+        data: 4
+        name: "&6Kollane"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 15
+        color: YELLOW
+    '16':
+        type: "DIAMOND_BLOCK"
+        data: 0
+        name: "&6Vikerkaar"
+        lore:
+        - "&7Kliki, et panna end sellist värvi helendama"
+        amount: 1
+        position: 16
+        color: RAINBOW
+    '17':
+        type: "BARRIER"
+        data: 0
+        name: "&4Eemalda helendus"
+        lore:
+        - '&7Kliki, et eemaldada helendus'
+        amount: 1
+        position: 27
+        color: NONE
+        
+rainbowChangeInterval: 20 #How often the glow color should change on players with the rainbow effect on (IN TICKS)
+
+# General Plugin Messages
+messages:
+    # Message displayed if the player doesn't have permission for any GlowGUI commands.
+    noPermission: "&cSul pole selleks piisavalt õigusi."
+    # Messages the player he is glowing color %color%.
+    nowGlowing: "&2&lHelenda > &aMuutsid oma helenduse värvi!"
+    # If for some reason the command sender is not a player, this message is returned.
+    notAPlayer: "&cYou need to be a player to do this!"
+    # Sent when opening GUI with custom command in options above.
+    openInventory: "&2&lHelenda > &eAvan menüü."
+    # Sent when using /glowgui reload. Confirming the configuration has been reloaded
+    reloadSuccess: "&aReloaded the config!"
+    # Sent when a player/target hasn't been found. Generally a player not online or non-existant
+    playerNotFound: "&cThat player (%target%) is not online!"
+    # Sent to the command sender when they have used /glowgui open <player>
+    openInventoryPlayer: "&aYou have opened the inventory for %player%!"
+    # Sent to the player when they remove their glowing effects
+    notGlowingAnymore: "&2&lHelenda > &aHelendus eemaldatud."
+    # Sent to the player if they try to remove their glowing effects, but were not glowing
+    wasNotGlowing: "&2&lHelenda > &cSa ju ei helenda."
+    # Sent to the command sender when they remove another players glowing effects
+    playerNotGlowingAnymore: "&cPlayer (%player%) is not glowing anymore!"
+    # Sent to the command sender if the player they tried to remove the glowing effects from was not glowing
+    playerWasNotGlowing: "&cPlayer (%player%) was not glowing!"
+    # Sent to the command sender when they use a command to set another players glowing effects
+    playerNowGlowing: "&aPlayer (%player%) is now glowing %color%!"
+    #This menu is displayed in the order in which it is below. This is displayed when the /glowgui command is run alone.
+    alreadyOnRainbow: "&2&lHelenda > &cSul juba on see värv."
+    help:
+    - "GlowGUI - By GiansCode"
+    - " "
+    - "/glowgui"
+    - "/glowgui open"
+    - "/glowgui open <player>"
+    - "/glowgui set <player> <color>"
+    - "/glowgui remove"
+    - "/glowgui remove <player>"
+    - "/glowgui reload"
+    - " "
