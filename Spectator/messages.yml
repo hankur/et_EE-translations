@@ -1,9 +1,9 @@
 Messages:
   Spectate:
-    General: '&bYour are now spectating!'
-    Other: '&bYou are now spectating <player>!'
-    GiveOther: '&bPutting <player> into spectator mode!'
-    'Off': '&eYou are no longer spectating!'
+    General: '&bSa oled nüüd pealtvaataja!'
+    Other: '&bSa vaatad pealt mängjat <player>!'
+    GiveOther: '&bLisan <player> pealtvaatajaks!'
+    'Off': '&eSa ei ole enam pealtvaataja!'
     CycleStart: '&bSpectating cycle started with interval <interval>!'
     CycleStop: '&eSpectating cycle stopped!'
     CycleRunning: '&cYou are already in a spectating cycle!'
