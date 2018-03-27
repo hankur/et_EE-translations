@@ -1,4 +1,4 @@
-# Eesti keel
+# et_EE tõlked
 Anna oma panus Eesti serverite paremaks tegemisele aidates meil tõlkida ja parandada olemasolevaid pluginafaile.
 Algselt olid need failid mõeldud vaid Wabariigi jaoks, kuid nüüd on see täiesti eraldiseisev tõlkekogu kõigile.
 
