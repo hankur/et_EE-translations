@@ -30,7 +30,7 @@ Messages:
   Added-Item-To-Auction: '&7Lisasid eseme müüki hinnaga &a%Price% kr&7.'
   Bid-Msg: '&7Panustasid &a%Bid% kr &7sellele esemele.'
   Help-Menu:
-    - '&e-- &6Crazy Auctions Help &e--'
+    - '&e-- &6Oksjioni abi &e--'
     - '&9/Ah - &eAvab oksjoni menüü.'
     - '&9/Ah View <mängija> - &eVaata, mida valitud müngija müüb.'
     - '&9/Ah Sell/Bid <hind> [kogus] - &ePane müüki ese, mida käes hoiad.'
