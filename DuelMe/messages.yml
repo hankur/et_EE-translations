@@ -22,7 +22,7 @@ messages:
     ended:
         reward: '&aSa võitsid duelli! Palju õnne!'
     error:
-        noduelarenas: '&cERROR, There are no duel arenas!, please contact a member of staff.'
+        noduelarenas: '&cVIGA, duelli areene ei leitud, palun kontakteeru meeskonnaliikmega.'
         forcefullycancelled: '&c1vs1 lõppes võitjata'
         commandnotallowed: '&cSa ei saa seda kasutada 1vs1 ajal.'
         cannottduelself: '&cSa ei saa isendaga võidelda.'
