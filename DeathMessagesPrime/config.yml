@@ -146,7 +146,7 @@ death-messages:
     Chicken:
       - "%plrtag% tapeti kana poolt"
     Cow:
-      - "%plrtag% tapeti Lehma poolt"
+      - "%plrtag% tapeti lehma poolt"
     Creeper:
       - "Mängija %plrtag% lennutati õhku hiilija poolt"
     Donkey:
