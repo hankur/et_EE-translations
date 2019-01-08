@@ -106,8 +106,8 @@ show-custom-death-msg-on-all-weapons: false
 show-named-pet-death-messages: false
 
 # Messages for enabling and disabling death messages using /toggledeathmsg
-death-messages-hidden: "&a[DMP] &aDeath messages from other players will now be HIDDEN"
-death-messages-shown: "&a[DMP] &aDeath messages from other players will now be SHOWN"
+death-messages-hidden: "&a[DMP] &aSurmasõnumid mängijatest on nüüd PEIDETUD"
+death-messages-shown: "&a[DMP] &aSurmasõnumid mängijatest on nüüd NÄHTAVAD"
 
 # Here are the actual death messages. They are as a list, so you can add as many as
 # you want, and the plugin will support it. Color codes in format &0-&f and &k-&r are
@@ -144,13 +144,13 @@ death-messages:
     CaveSpider:
       - "Mängija %plrtag% tapeti koopaämbliku poolt"
     Chicken:
-      - "%plrtag% was slain by Chicken"
+      - "%plrtag% tapeti kana poolt"
     Cow:
-      - "%plrtag% was slain by Cow"
+      - "%plrtag% tapeti lehma poolt"
     Creeper:
       - "Mängija %plrtag% lennutati õhku hiilija poolt"
     Donkey:
-      - "%plrtag% was slain by Donkey"
+      - "%plrtag% tapeti eesli poolt"
     ElderGuardian:
       - "Mängija %plrtag% tapeti vabemkaitsja poolt"
     EnderDragon:
