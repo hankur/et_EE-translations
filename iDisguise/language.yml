@@ -1,5 +1,5 @@
 reload-complete: §6[iDisguise] Plugin taaslaetud.
-no-permission: §cTeil puudub luba selle tegemiseks.
+no-permission: §cSul puudub luba selle tegemiseks.
 console-use-other-command: §cKasuta /odisguise serveri konsoolist.
 cannot-find-player: §cEi leia mängijat: %player%.
 wrong-usage-no-name: '§cVale kasutus: kasutajanime ei sisestatud.'
