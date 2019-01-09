@@ -1,8 +1,8 @@
-reload-complete: §6[iDisguise] Reload complete.
-no-permission: §cYou are not allowed to do this.
-console-use-other-command: §cUse /odisguise from the server console.
-cannot-find-player: §cCannot find player %player%.
-wrong-usage-no-name: '§cWrong usage: account name required'
+reload-complete: §6[iDisguise] Plugin taaslaetud.
+no-permission: §cSul puudub luba selle tegemiseks.
+console-use-other-command: §cKasuta /odisguise serveri konsoolist.
+cannot-find-player: §cEi leia mängijat: %player%.
+wrong-usage-no-name: '§cVale kasutus: kasutajanime ei sisestatud.'
 wrong-usage-two-disguise-types: '§cWrong usage: two disguise types given'
 wrong-usage-unknown-arguments: '§cWrong usage: unknown arguments §o%arguments%'
 wrong-usage-see-through: '§cWrong usage: unknown argument §o%argument%'
@@ -28,13 +28,13 @@ undisguise-success-other: §6%player% undisguised.
 undisguise-success-all: §6%share% out of %total% disguised players undisguised.
 undisguise-success-all-ignore: §6Undisguised every disguised player ignoring other
   plugins.
-help-info: §a%name% %version% - Help
+help-info: §a%name% %version% - Abi
 help-base: §6§o %command% §6- %description%
 help-types: '§7Types: %types%'
 help-types-available: '%type%'
 help-types-not-supported: §m%type%
 help-types-no-permission: §m%type%
-help-help: Shows this message
+help-help: Näitab seda sõnumit
 help-player-self: Disguise yourself as a player
 help-player-other: Disguise a player as a player
 help-random-self: Disguise yourself as a randomly chosen mob
@@ -56,10 +56,10 @@ move-as-shulker: §cYou must not move while you are disguised as a shulker.
 update-available: '§6[iDisguise] An update is available: %version%'
 update-already-downloaded: §6[iDisguise] Update already downloaded. (Restart server
   to apply update)
-update-downloading: §6[iDisguise] Downloading update...
+update-downloading: §6[iDisguise] Uuenduse allalaadimine
 update-download-succeeded: §6[iDisguise] Download succeeded. (Restart server to apply
   update)
-update-download-failed: §c[iDisguise] Download failed.
+update-download-failed: §c[iDisguise] Allalaadimine ebaõnnestus.
 update-option: §6[iDisguise] You can enable automatic updates in the config file.
 easter-egg-birthday: §eYAAAY!!! Today is my birthday! I'm %age% years old now.
 see-through-status-on-self: §6See-through mode is currently §aenabled §6for you.

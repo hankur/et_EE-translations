@@ -2,4 +2,4 @@ settings:
   prefix: '&2&lPing > &eSinu ping: %pingcolor%%ping%ms'
   other_prefix: '&2&lPing > &eMängija %player%&e ping: %pingcolor%%ping%ms'
   not_online: '&2&lPing > &cMängijat %player% ei leitud!'
-  cooldown_message: '&cPlease wait %time% seconds before checking again'
+  cooldown_message: '&cPalun oota %time% sekundit enne uuesti kontrollimist.'
