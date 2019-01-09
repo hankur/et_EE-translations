@@ -1,6 +1,6 @@
 messages:
   whitelist: Server on ajutiselt hooldusel!
-  unknown-command: §cTundmatu käsklus. Proovi /käsud, et näha käskude nimekirja.
+  unknown-command: §cTundmatu käsklus.
   server-full: Server on täis!
   outdated-client: Vananenud klient! Palun kasuta versiooni {0}.
   outdated-server: Vananenud server! Palun kasuta versiooni {0}.
