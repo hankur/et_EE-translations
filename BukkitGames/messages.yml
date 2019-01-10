@@ -7,24 +7,24 @@
 # It would be nice if you would share your finished translation.
 # For more information please visit the wiki: https://bitbucket.org/ftbastler/bukkitgames/wiki/
 
-TIME_UNTIL_BEGIN: Game begins in $0.
-TIME_UNTIL_INVINCIBILITY: Invincibility ends in $0.
-GAME_ALREADY_STARTED: Game already begun!
-GAME_STARTED: The game started! Prepare to fight.
-WAITNG_FOR_PLAYERS: Waiting for tributes.
-GAME_IN_PROGRESS: In progress.
-GAME_STARTING_IN: Starting in $0.
-GAME_END_SOON: Game will end soon! Quick, kill any remaining tributes now!
-GAME_ENDING_NOW: Game time limit reached! Server will restart very soon.
+TIME_UNTIL_BEGIN: Mäng algab: $0.
+TIME_UNTIL_INVINCIBILITY: Surematus lõppeb: $0.
+GAME_ALREADY_STARTED: Mäng on juba alanud!
+GAME_STARTED: Mäng on alanud! Ole valmis võitlema.
+WAITNG_FOR_PLAYERS: Ootame mängijate järgi.
+GAME_IN_PROGRESS: Hetkel käib.
+GAME_STARTING_IN: Mäng algab: $0.
+GAME_END_SOON: Mäng lõppeb varsti! Proovi teised mängijad kiiruga tappa.
+GAME_ENDING_NOW: Mängude limiit on täis. Server taaskäivitub varsti.
 MAY_ODDS_BE_IN_FAVOR: May the odds be ever in your favor.
 ODDS_WERE_NOT_IN_FAVOR: The odds were not in their favor.
 FREEZE_UNTIL_GAME_START: You can not move until the game begins.
-NO_PERMISSION: You do not have permission.
-YOU_DIED: You have fallen!
-COMPASS_NAME: Compass
+NO_PERMISSION: Sul puuduvad õigused.
+YOU_DIED: Sa oled langenud!
+COMPASS_NAME: Kompass
 COMPASS_CHANGE_MODE: "Left click to switch between target modes."
 COMPASS_UPDATE: "Right click to update the compass."
-GAME_ENDED: Game ended! Server will restart soon.
+GAME_ENDED: Mängude limiit on täis. Server taaskäivitub varsti.
 KIT_CHOOSE: You chose $0 as your kit.
 NO_KITS_AVAILABLE: There are no kits available.
 CHOOSE_KIT: Choose your kit
