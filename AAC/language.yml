@@ -11,7 +11,7 @@ spam_repeat_other: "Sa ei saa seda uuesti öelda."
 
 # Command messages
 aac_kick_broadcast: " visati välja häkkimiskahtluse eest."
-ban_message: "You have been banned for hacking on this server."
+ban_message: "Teil on keelatud serveriga liituda häkkimise tõttu."
 
 relog_message: "Oota paar sekundit enne uuesti sisse logimist."
 
