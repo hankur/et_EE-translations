@@ -7,9 +7,9 @@ messages:
     # Variable %player% is supported
     afk-off: '&e%player% on nüüd tagasi.'
     # Message sent after successful reload
-    reload: '&aConfiguration file reloaded!'
+    reload: '&aKonfiguratsioonifail taaslaetud!'
     # Message sent when console can't use a command
-    no-console: '&cThis command can only be used in-game.'
+    no-console: '&cSeda käsklust ei saa konsoolist käivitada.'
     # Message sent when anti-spam blocks the usage of /afk command
     # Variable %timeLeft% is supported
     anti-spam: '&2&lEemal > &cSa pead ootama veel %timeLeft% sekundit enne selle käsu uuesti kasutamist.'
