@@ -19,7 +19,7 @@ Messages:
   TransferClaimPermission:
     Text: See käsklus nõuab administratiivsete alade luba.
   TransferClaimMissing:
-    Text: Siin puudub maaala.  Seisa administratiivsel alal, mida soovid üle kanda.
+    Text: Siin puudub omastatud ala.  Seisa administratiivsel alal, mida soovid üle kanda.
   TransferClaimAdminOnly:
     Text: Mängijale saab üle kanda vaid administratiivseid alasid.
   PlayerNotFound2:
@@ -195,10 +195,10 @@ Messages:
     Text: Sa saad veel omastada kuni {0} plokki.
     Notes: '0: remaining blocks'
   CreativeBasicsVideo2:
-    Text: 'Klõpsa ala hankimise abi saamiseks: {0}'
+    Text: 'Klõpsa ala omistamise abi saamiseks: {0}'
     Notes: '{0}: video URL'
   SurvivalBasicsVideo2:
-    Text: 'Klõpsa ala hankimise abi saamiseks: {0}'
+    Text: 'Klõpsa ala omistamise abi saamiseks: {0}'
     Notes: '{0}: video URL'
   TrappedChatKeyword:
     Text: kinni;lõksus
@@ -239,7 +239,7 @@ Messages:
     Text: Ei saa taastada, selles kamakas on mängija {0}.
     Notes: '0: nearby player'
   NoCreateClaimPermission:
-    Text: Sul puudub luba ala hankimiseks.
+    Text: Sul puudub ala omistamiseks luba.
   ResizeNeedMoreBlocks:
     Text: Sul pole selle suuruse jaoks piisavalt plokke.  Sa vajad juurde {0} plokki.
     Notes: '0: how many needed'
@@ -266,14 +266,14 @@ Messages:
     Text: Sa ei saa siia ala luua, kuna see kattuks mängija {0} alaga.
     Notes: '0: other claim owner'
   ClaimsDisabledWorld:
-    Text: Ala hankimine on selles maailmas keelatud.
+    Text: Ala omistamine on selles maailmas keelatud.
   ClaimStart:
     Text: Ala nurk määratud!  Kasuta labidat uuesti vastasnurgas, et hankida ristkülikukujuline ala.  To cancel, put your shovel away.
   NewClaimTooNarrow:
     Text: See ala oleks liiga väike.  Iga ala peab olema vähemalt {0} plokki lai.
     Notes: '0: minimum claim width'
   CreateClaimInsufficientBlocks:
-    Text: Sul pole kogu selle ala hankimiseks piisavalt alaplokke.  Sa vajad veel {0} plokki.
+    Text: Sul pole kogu selle ala omistamiseks piisavalt alaplokke.  Sa vajad veel {0} plokki.
     Notes: '0: additional blocks needed'
   AbandonClaimAdvertisement:
     Text: Teise ala kustutamiseks ning paarikümne ploki vabastamiseks kasuta /AbandonClaim.
@@ -298,47 +298,44 @@ Messages:
   NoBuildPvP:
     Text: Sa ei saa PvP võitluse ajal alades ehitada.
   NoBuildPermission:
-    Text: You don't have {0}'s permission to build here.
+    Text: Sul puudub siin ehitamiseks mängija {0} luba.
     Notes: '0: owner name'
   NonSiegeMaterial:
-    Text: That material is too tough to break.
+    Text: See materjal on lõhkumiseks liiga tugev.
   NoOwnerBuildUnderSiege:
-    Text: You can't make changes while under siege.
+    Text: Sa ei saa ümberpiiramise ajal muutusi teha.
   NoAccessPermission:
-    Text: You don't have {0}'s permission to use that.
+    Text: Sul puudub selle kasutamiseks mängija {0} luba.
     Notes: '0: owner name.  access permission controls buttons, levers, and beds'
   NoContainersSiege:
-    Text: This claim is under siege by {0}.  No one can access containers here right
-      now.
+    Text: See ala on mängija {0} poolt ümber piiratud.  Keegi ei saa siin hetkel konteinereid kasutada.
     Notes: '0: attacker name'
   NoContainersPermission:
-    Text: You don't have {0}'s permission to use that.
+    Text: Sul puudub selle kasutamiseks mängija {0} luba.
     Notes: '0: owner''s name.  containers also include crafting blocks'
   OwnerNameForAdminClaims:
-    Text: an administrator
+    Text: (mõni admin)
     Notes: as in 'You don't have an administrator's permission to build here.'
   ClaimTooSmallForEntities:
-    Text: This claim isn't big enough for that.  Try enlarging it.
+    Text: See ala pole selle jaoks piisavalt suur.  Proovi seda suurendada.
   TooManyEntitiesInClaim:
-    Text: This claim has too many entities already.  Try enlarging the claim or removing
-      some animals, monsters, paintings, or minecarts.
+    Text: Selles alas on juba liiga palju olemeid.  Proovi ala suurendada või eemaldada loomi, koletisi, maale või kaevanduskärusid.
   YouHaveNoClaims:
-    Text: You don't have any land claims.
+    Text: Sul pole ühtegi omistatud ala.
   ConfirmFluidRemoval:
-    Text: Abandoning this claim will remove lava inside the claim.  If you're sure,
-      use /AbandonClaim again.
+    Text: Selle ala mahajätmine eemaldab alas oleva laava.  Kui oled kindel, kasuta uuesti /AbandonClaim.
   AutoBanNotify:
-    Text: Auto-banned {0}({1}).  See logs for details.
+    Text: Mängija {0} on automaatselt blokeeritud ({1}).  Lisainfo saamiseks vaata logisid.
   AdjustGroupBlocksSuccess:
-    Text: 'Adjusted bonus claim blocks for players with the {0} permission by {1}.  New
-      total: {2}.'
+    Text: 'Loaga {0} mängijatel on boonusalaplokke reguleeritud {1} võrra.  Uus jääk: {2}.'
     Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
   InvalidPermissionID:
-    Text: Please specify a player name, or a permission in [brackets].
+    Text: Palun sisesta mängija nimi või [sulgudes luba].
   HowToClaimRegex:
-    Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
+    Text: (kas|kuidas|mida).*(ala|prot|land|claim|kaits|luk[u|k]|kirst|chest)
     Notes: This is a Java Regular Expression.  Look it up before editing!  It's used
       to tell players about the demo video when they ask how to claim land.
+      Originaal oli (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
   NoBuildOutsideClaims:
     Text: You can't build here unless you claim some land first.
   PlayerOfflineTime:
