@@ -73,7 +73,7 @@ Messages:
   BasicClaimsMode:
     Text: Põhilisse ala loomise režiimi tagasi pöördutud.
   SubdivisionMode:
-    Text: Alajaotise režiim.  Kasuta oma kühvlit, et luua alajaotisi olemasolevates alades.  Väljumiseks kasuta /BasicClaims.
+    Text: Alajaotise režiim.  Kasuta oma labidat, et luua alajaotisi olemasolevates alades.  Väljumiseks kasuta /BasicClaims.
   SubdivisionVideo2:
     Text: 'Klõpsa alajaotiste abi saamiseks: {0}'
     Notes: 0:video URL
@@ -165,63 +165,61 @@ Messages:
   PvPImmunityStart:
     Text: Sind on kaitstud teiste mängijate rünnete eest nii kaua, kuni su seljakott on tühi.
   SiegeNoDrop:
-    Text: You can't give away items while involved in a siege.
+    Text: Sa ei saa esemeid ära anda, kuni oled ümber piiratud.
   DonateItemsInstruction:
-    Text: To give away the item(s) in your hand, left-click the chest again.
+    Text: Käes olevate esemete annetamiseks tee kirstul uuesti vasakklõps.
   ChestFull:
-    Text: This chest is full.
+    Text: See kirst on täis.
   DonationSuccess:
-    Text: Item(s) transferred to chest!
+    Text: Ese(med) on kirstu viidud!
   PlayerTooCloseForFire2:
-    Text: You can't start a fire this close to another player.
+    Text: Sa ei saa tulekahju alustada, kuni oled teisele mängijale nii lähedal.
   TooDeepToClaim:
-    Text: This chest can't be protected because it's too deep underground.  Consider
-      moving it.
+    Text: Seda kirstu ei saa kaitsta, kuna see on liiga sügaval maa all.  Kaalu selle liigutamist.
   ChestClaimConfirmation:
-    Text: This chest is protected.
+    Text: See kirst on kaitstud.
   AutomaticClaimNotification:
-    Text: This chest and nearby blocks are protected from breakage and theft.
+    Text: See kirst ning lähedalasuvad plokid on kaitstud lõhkumise ja varguse eest.
   UnprotectedChestWarning:
-    Text: This chest is NOT protected.  Consider using a golden shovel to expand an
-      existing claim or to create a new one.
+    Text: See kirst EI OLE kaitstud.  Kaalu kuldlabida kasutamist, et laiendada olemasolevat ala või luua uus.
   ThatPlayerPvPImmune:
-    Text: You can't injure defenseless players.
+    Text: Sa ei saa vigastada kaitsetuid mängijaid.
   CantFightWhileImmune:
-    Text: You can't fight someone while you're protected from PvP.
+    Text: Sa ei saa kellegagi võidelda, kuni oled PvP eest kaitstud.
   NoDamageClaimedEntity:
-    Text: That belongs to {0}.
+    Text: See kuulub mängijale {0}.
     Notes: '0: owner name'
   ShovelBasicClaimMode:
-    Text: Shovel returned to basic claims mode.
+    Text: Labidas pöörduti tagasi põhilisse ala loomise režimi.
   RemainingBlocks:
-    Text: You may claim up to {0} more blocks.
+    Text: Sa saad veel omastada kuni {0} plokki.
     Notes: '0: remaining blocks'
   CreativeBasicsVideo2:
-    Text: 'Click for Land Claim Help: {0}'
+    Text: 'Klõpsa ala hankimise abi saamiseks: {0}'
     Notes: '{0}: video URL'
   SurvivalBasicsVideo2:
-    Text: 'Click for Land Claim Help: {0}'
+    Text: 'Klõpsa ala hankimise abi saamiseks: {0}'
     Notes: '{0}: video URL'
   TrappedChatKeyword:
-    Text: trapped;stuck
+    Text: kinni;lõksus
     Notes: When mentioned in chat, players get information about the /trapped command
       (multiple words can be separated with semi-colons)
   TrappedInstructions:
-    Text: Are you trapped in someone's land claim?  Try the /trapped command.
+    Text: Kas oled kellegi alas lõksus?  Proovi käsklust /trapped.
   PvPNoDrop:
-    Text: You can't drop items while in PvP combat.
+    Text: Sa ei saa esemeid kukutada, kuni oled PvP võitluses.
   SiegeNoTeleport:
-    Text: You can't teleport out of a besieged area.
+    Text: Sa ei saa ümber piiratud alast välja teleporteeruda.
   BesiegedNoTeleport:
-    Text: You can't teleport into a besieged area.
+    Text: Sa ei saa ümber piiratud alasse teleporteeruda.
   SiegeNoContainers:
-    Text: You can't access containers while involved in a siege.
+    Text: Sa ei saa konteinereid kasutada, kuni oled ümber piiratud.
   PvPNoContainers:
-    Text: You can't access containers during PvP combat.
+    Text: Sa ei saa konteinereid kasutada, kuni oled PvP võitluses.
   PvPImmunityEnd:
-    Text: Now you can fight with other players.
+    Text: Nüüd sa saad teiste mängijatega võidelda.
   NoBedPermission:
-    Text: '{0} hasn''t given you permission to sleep here.'
+    Text: 'Mängija {0} pole andnud sulle siin magamiseks luba.'
     Notes: '0: claim owner'
   NoWildernessBuckets:
     Text: You may only dump buckets inside your claim(s) or underground.
