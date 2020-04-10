@@ -222,87 +222,81 @@ Messages:
     Text: 'Mängija {0} pole andnud sulle siin magamiseks luba.'
     Notes: '0: claim owner'
   NoWildernessBuckets:
-    Text: You may only dump buckets inside your claim(s) or underground.
+    Text: Sa saad ämbreid tühjendada vaid oma ala(de)s või maa all.
   NoLavaNearOtherPlayer:
-    Text: You can't place lava this close to {0}.
+    Text: Sa ei saa asetada laavat, kuni oled mängijale {0} nii lähedal.
     Notes: '0: nearby player'
   TooFarAway:
-    Text: That's too far away.
+    Text: See on liiga kaugel.
   BlockNotClaimed:
-    Text: No one has claimed this block.
+    Text: Keegi pole seda plokki omastanud.
   BlockClaimed:
-    Text: That block has been claimed by {0}.
+    Text: See plokk on omastatud mängija {0} poolt.
     Notes: '0: claim owner'
   SiegeNoShovel:
-    Text: You can't use your shovel tool while involved in a siege.
+    Text: Sa ei saa kasutada oma labidatööriista, kuni osaled ümberpiiramises.
   RestoreNaturePlayerInChunk:
-    Text: Unable to restore.  {0} is in that chunk.
+    Text: Ei saa taastada, selles kamakas on mängija {0}.
     Notes: '0: nearby player'
   NoCreateClaimPermission:
-    Text: You don't have permission to claim land.
+    Text: Sul puudub luba ala hankimiseks.
   ResizeNeedMoreBlocks:
-    Text: You don't have enough blocks for this size.  You need {0} more.
+    Text: Sul pole selle suuruse jaoks piisavalt plokke.  Sa vajad juurde {0} plokki.
     Notes: '0: how many needed'
   NoCreativeUnClaim:
-    Text: You can't unclaim this land.  You can only make this claim larger or create
-      additional claims.
+    Text: Sa ei saa seda ala maha jätta.  Sa saad vaid seda ala suuremaks teha või uusi alasid juurde teha.
   ClaimResizeSuccess:
-    Text: Claim resized.  {0} available claim blocks remaining.
+    Text: Ala suurus muudetud.  Sul on jäänud kasutada {0} alaplokki.
     Notes: '0: remaining blocks'
   ResizeFailOverlap:
-    Text: Can't resize here because it would overlap another nearby claim.
+    Text: Siin ei saa suurust muuta, kuna see kattuks teise lähedalasuva alaga.
   ResizeStart:
-    Text: Resizing claim.  Use your shovel again at the new location for this corner.
+    Text: Ala suuruse muutmine.  Kasuta oma labidat uuesti selle nurga uues kohas.
   ResizeFailOverlapSubdivision:
-    Text: You can't create a subdivision here because it would overlap another subdivision.  Consider
-      /abandonclaim to delete it, or use your shovel at a corner to resize it.
+    Text: Sa ei saa siia alajaotist luua, kuna see kattuks teise alajaotisega.  Kaalu /AbandonClaim kasutamist selle kustutamiseks või kasuta nurgas oma labidat selle suuruse muutmiseks.
   SubdivisionStart:
-    Text: Subdivision corner set!  Use your shovel at the location for the opposite
-      corner of this new subdivision.
+    Text: Alajaotise nurk määratud!  Kasuta oma labidat selle alajaotise vastasnurgas.
   CreateSubdivisionOverlap:
-    Text: Your selected area overlaps another subdivision.
+    Text: Sinu valitud ala kattub teise alajaotisega.
   SubdivisionSuccess:
-    Text: Subdivision created!  Use /trust to share it with friends.
+    Text: Alajaotus loodud!  Kasuta /Trust, et seda sõpradega jagada.
   CreateClaimFailOverlap:
-    Text: You can't create a claim here because it would overlap your other claim.  Use
-      /abandonclaim to delete it, or use your shovel at a corner to resize it.
+    Text: Sa ei saa siia ala luua, kuna see kattuks sinu teise alaga. Kasuta selle kustutamiseks /AbandonClaim või kasuta oma labidat nurgas selle suuruse muutmiseks.
   CreateClaimFailOverlapOtherPlayer:
-    Text: You can't create a claim here because it would overlap {0}'s claim.
+    Text: Sa ei saa siia ala luua, kuna see kattuks mängija {0} alaga.
     Notes: '0: other claim owner'
   ClaimsDisabledWorld:
-    Text: Land claims are disabled in this world.
+    Text: Ala hankimine on selles maailmas keelatud.
   ClaimStart:
-    Text: Claim corner set!  Use the shovel again at the opposite corner to claim
-      a rectangle of land.  To cancel, put your shovel away.
+    Text: Ala nurk määratud!  Kasuta labidat uuesti vastasnurgas, et hankida ristkülikukujuline ala.  To cancel, put your shovel away.
   NewClaimTooNarrow:
-    Text: This claim would be too small.  Any claim must be at least {0} blocks wide.
+    Text: See ala oleks liiga väike.  Iga ala peab olema vähemalt {0} plokki lai.
     Notes: '0: minimum claim width'
   CreateClaimInsufficientBlocks:
-    Text: You don't have enough blocks to claim that entire area.  You need {0} more
-      blocks.
+    Text: Sul pole kogu selle ala hankimiseks piisavalt alaplokke.  Sa vajad veel {0} plokki.
     Notes: '0: additional blocks needed'
   AbandonClaimAdvertisement:
-    Text: To delete another claim and free up some blocks, use /AbandonClaim.
+    Text: Teise ala kustutamiseks ning paarikümne ploki vabastamiseks kasuta /AbandonClaim.
   CreateClaimFailOverlapShort:
-    Text: Your selected area overlaps an existing claim.
+    Text: Sinu valitud ala kattub olemasoleva alaga.
   CreateClaimSuccess:
-    Text: Claim created!  Use /trust to share it with friends.
+    Text: Ala loodud!  Sõpradega jagamiseks kasuta /Trust.
   SiegeWinDoorsOpen:
-    Text: Congratulations!  Buttons and levers are temporarily unlocked.
+    Text: Õnnitleme!  Nupud ja kangid on ajutiselt lahti lukustatud.
   RescueAbortedMoved:
-    Text: You moved!  Rescue cancelled.
+    Text: Sa liikusid!  Päästmine tühistatud.
   SiegeDoorsLockedEjection:
-    Text: Looting time is up!  Ejected from the claim.
+    Text: Röövimise aeg on läbi!  Oled alalt välja visatud.
   NoModifyDuringSiege:
-    Text: Claims can't be modified while under siege.
+    Text: Alasid ei saa ümber piiramise ajal muuta.
   OnlyOwnersModifyClaims:
-    Text: Only {0} can modify this claim.
+    Text: Ainult mängija {0} saab seda ala muuta.
     Notes: '0: owner name'
   NoBuildUnderSiege:
-    Text: This claim is under siege by {0}.  No one can build here.
+    Text: See ala on mängija {0} poolt ümber piiratud.  Keegi ei saa siin ehitada.
     Notes: '0: attacker name'
   NoBuildPvP:
-    Text: You can't build in claims during PvP combat.
+    Text: Sa ei saa PvP võitluse ajal alades ehitada.
   NoBuildPermission:
     Text: You don't have {0}'s permission to build here.
     Notes: '0: owner name'
