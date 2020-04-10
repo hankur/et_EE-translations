@@ -337,108 +337,96 @@ Messages:
       to tell players about the demo video when they ask how to claim land.
       Originaal oli (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
   NoBuildOutsideClaims:
-    Text: You can't build here unless you claim some land first.
+    Text: Sa ei saa ehitada, kuni sa pole omale ala omistanud.
   PlayerOfflineTime:
-    Text: '  Last login: {0} days ago.'
+    Text: '  Viimane sisselogimine: {0} päeva tagasi.'
     Notes: '0: number of full days since last login'
   BuildingOutsideClaims:
-    Text: Other players can build here, too.  Consider creating a land claim to protect
-      your work!
+    Text: Teised mängijad saavad siin samuti ehitada. Kaalu omale ala omistamist, et oma tööd kaitsta!
   TrappedWontWorkHere:
-    Text: Sorry, unable to find a safe location to teleport you to.  Contact an admin.
+    Text: Vabandust, me ei leidnud sulle teleporteerumiseks turvalist kohta.  Kontakteeru adminiga.
   CommandBannedInPvP:
-    Text: You can't use that command while in PvP combat.
+    Text: Sa ei saa seda käsklust kasutada, kuni oled PvP võitluses.
   UnclaimCleanupWarning:
-    Text: The land you've unclaimed may be changed by other players or cleaned up
-      by administrators.  If you've built something there you want to keep, you should
-      reclaim it.
+    Text: Ala, mille oled maha jätnud võidakse muuta teiste mängijate poolt või tühjendada adminite poolt. Kui oled ehitanud midagi, mida soovid säilitada, peaksid selle uuesti omistama.
   BuySellNotConfigured:
-    Text: Sorry, buying and selling claim blocks is disabled.
+    Text: Vabandust, alaplokkide müümine ja ostmine on keelatud.
   NoTeleportPvPCombat:
-    Text: You can't teleport while fighting another player.
+    Text: Teise mängijaga võitlemise ajal ei saa teleporteeruda.
   NoTNTDamageAboveSeaLevel:
-    Text: 'Warning: TNT will not destroy blocks above sea level.'
+    Text: 'Hoiatus: dünamiit ei lõhu meretasemest kõrgemal olevaid plokke.'
   NoTNTDamageClaims:
-    Text: 'Warning: TNT will not destroy claimed blocks.'
+    Text: 'Hoiatus: dünamiit ei lõhu omistatud plokke.'
   IgnoreClaimsAdvertisement:
-    Text: To override, use /IgnoreClaims.
+    Text: Sundimiseks kasuta /IgnoreClaims.
   NoPermissionForCommand:
-    Text: You don't have permission to do that.
+    Text: Sul puudub selle tegevuse jaoks luba.
   ClaimsListNoPermission:
-    Text: You don't have permission to get information about another player's land
-      claims.
+    Text: Sul puudub luba teise mängija omistatud ala teabe saamiseks.
   ExplosivesDisabled:
-    Text: This claim is now protected from explosions.  Use /ClaimExplosions again
-      to disable.
+    Text: See ala on nüüd plahvatuste eest kaitstud.  Kasuta keelamiseks uuesti /ClaimExplosions.
   ExplosivesEnabled:
-    Text: This claim is now vulnerable to explosions.  Use /ClaimExplosions again
-      to re-enable protections.
+    Text: See ala ei ole enam nüüd plahvatuste eest kaitstud.  Kasuta lubamiseks uuesti /ClaimExplosions.
   ClaimExplosivesAdvertisement:
-    Text: To allow explosives to destroy blocks in this land claim, use /ClaimExplosions.
+    Text: Et lubada lõhkekehadel siin alas plokke lõhkuda, kasuta /ClaimExplosions.
   PlayerInPvPSafeZone:
-    Text: That player is in a PvP safe zone.
+    Text: See mängija on PvP-turvatsoonis.
   NoPistonsOutsideClaims:
-    Text: 'Warning: Pistons won''t move blocks outside land claims.'
+    Text: 'Hoiatus: kolvid ei liigu aladest väljapoole.'
   SoftMuted:
-    Text: Soft-muted {0}.
+    Text: Mängija {0} on vaikselt vaigistatud.
     Notes: '0: The changed player''s name.'
   UnSoftMuted:
-    Text: Un-soft-muted {0}.
+    Text: Mängija {0} ei ole enam vaikselt vaigistatud.
     Notes: '0: The changed player''s name.'
   DropUnlockAdvertisement:
-    Text: Other players can't pick up your dropped items unless you /UnlockDrops first.
+    Text: Teised mängijad ei saa üles korjata sinu maha visatud esemeid, kuni sa ei kasuta /UnlockDrops.
   PickupBlockedExplanation:
-    Text: You can't pick this up unless {0} uses /UnlockDrops.
+    Text: Sa ei saa seda üles korjata, kuni mängija {0} kasutab /UnlockDrops.
     Notes: '0: The item stack''s owner.'
   DropUnlockConfirmation:
-    Text: Unlocked your drops.  Other players may now pick them up (until you die
-      again).
+    Text: Mahaviskamised on nüüd lukustamata.  Teised mängijad saavad nüüd neid üles korjata (kuni sa uuesti sured).
   DropUnlockOthersConfirmation:
-    Text: Unlocked {0}'s drops.
+    Text: Mängija {0} mahaviskamised on nüüd lukustamata.
     Notes: '0: The owner of the unlocked drops.'
   AdvertiseACandACB:
-    Text: You may use /ACB to give yourself more claim blocks, or /AdminClaims to
-      create a free administrative claim.
+    Text: Sa võid kasutada /ACB, et hankida omale rohkem alaplokke või /AdminClaims, et luua tasuta administratiivne ala.
   AdvertiseAdminClaims:
-    Text: You could create an administrative land claim instead using /AdminClaims,
-      which you'd share with other administrators.
+    Text: Sa võid selle asemel luua administratiivse ala /AdminClaims abil, mida jagaksid sa teiste adminitega.
   AdvertiseACB:
-    Text: You may use /ACB to give yourself more claim blocks.
+    Text: Sa võid kasutada /ACB, et anda omale alaplokke juurde.
   NotYourPet:
-    Text: That belongs to {0} until it's given to you with /GivePet.
+    Text: See kuulub mängijale {0}, kuni see on sulle antud käsuga /GivePet.
     Notes: '0: owner name'
   PetGiveawayConfirmation:
-    Text: Pet transferred.
+    Text: Lemmikloom ära antud.
   PetTransferCancellation:
-    Text: Pet giveaway cancelled.
+    Text: Lemmiklooma ära andmine tühistatud.
   ReadyToTransferPet:
-    Text: Ready to transfer!  Right-click the pet you'd like to give away, or cancel
-      with /GivePet cancel.
+    Text: Valmis ära andmiseks!  Paremklõpsa koduloomal, keda soovid ära anda või tühista käsuga /GivePet cancel.
   AvoidGriefClaimLand:
-    Text: Prevent grief!  If you claim your land, you will be grief-proof.
+    Text: Väldi rüüstamist!  Kui omistad oma ala, on see rüüstamise eest kaitstud.
   BecomeMayor:
-    Text: Subdivide your land claim and become a mayor!
+    Text: Loo alal jaotisi ning saa linnapeaks!
   ClaimCreationFailedOverClaimCountLimit:
-    Text: You've reached your limit on land claims.  Use /AbandonClaim to remove one
-      before creating another.
+    Text: Oled jõudnud oma ala omistamise limiidini.  Kasuta /AbandonClaim, et eemaldada üks ala enne järgmise loomist.
   CreateClaimFailOverlapRegion:
-    Text: You can't claim all of this because you're not allowed to build here.
+    Text: Sa ei saa seda kõike omistada, kuna sa ei tohi siin ehitada.
   ResizeFailOverlapRegion:
-    Text: You don't have permission to build there, so you can't claim that area.
+    Text: Sul pole luba siia ehitamiseks, seega sa ei saa seda ala omistada.
   ShowNearbyClaims:
-    Text: Found {0} land claims.
+    Text: {0} omistatud ala leitud.
     Notes: '0: Number of claims found.'
   NoChatUntilMove:
-    Text: Sorry, but you have to move a little more before you can chat.  We get lots
-      of spam bots here.  :)
+    Text: Vabandust, aga sa pead natuke liikuma, enne kui saad rääkida.  Me saame siin mitmeid spammiroboteid.  :)
   SiegeImmune:
-    Text: That player is immune to /siege.
+    Text: See mängija on /Siege-le immuunne.
   SetClaimBlocksSuccess:
-    Text: Updated accrued claim blocks.
+    Text: Kogunenud alaplokid uuendatud.
   IgnoreConfirmation:
-    Text: You're now ignoring chat messages from that player.
+    Text: Sa ignoreerid nüüd selle mängija sõnumeid.
   NotIgnoringPlayer:
-    Text: You're not ignoring that player.
+    Text: Sa ei ignoreeri seda mängijat.
   UnIgnoreConfirmation:
     Text: You're no longer ignoring chat messages from that player.
   SeparateConfirmation:
