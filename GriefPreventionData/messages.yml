@@ -1,0 +1,580 @@
+# Use a YAML editor like NotepadPlusPlus to edit this file.  
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+Messages:
+  RespectingClaims:
+    Text: Nüüd alasid austatakse.
+  IgnoringClaims:
+    Text: Nüüd alasid ignoreeritakse.
+  SuccessfulAbandon:
+    Text: Alad mahajäetud.  Sul on nüüd kasutada {0} alaplokki.
+    Notes: '0: remaining blocks'
+  RestoreNatureActivate:
+    Text: Looduse taastamiseks valmis!  Looduse taastamiseks paremklõpsa, lõpetamiseks
+      kasuta /BasicClaims.
+  RestoreNatureAggressiveActivate:
+    Text: Agressiivne režiim aktiveeritud.  ÄRA kasuta seda millegi all, mida soovid
+      alles jätta!  Agresiivseks looduse taastamiseks paremklõpsa, lõpetamiseks kasuta
+      /BasicClaims.
+  FillModeActive:
+    Text: Täitmisrežiim aktiveeritud raadiusega {0}.  Täitmiseks paremklõpsa alal.
+    Notes: '0: fill radius'
+  TransferClaimPermission:
+    Text: See käsklus nõuab administratiivsete alade luba.
+  TransferClaimMissing:
+    Text: Siin puudub omastatud ala.  Seisa administratiivsel alal, mida soovid üle
+      kanda.
+  TransferClaimAdminOnly:
+    Text: Mängijale saab üle kanda vaid administratiivseid alasid.
+  PlayerNotFound2:
+    Text: Sellise nimega mängija pole hiljuti sisse loginud.
+  TransferTopLevel:
+    Text: Üle kanda saab vaid kõrgetasemelisi alasid (mitte alajaotuseid).  Seisa
+      alajaotusest väljaspool ning proovi uuesti.
+  TransferSuccess:
+    Text: Ala on üle kantud.
+  TrustListNoClaim:
+    Text: Seisa sulle huvi pakkuva ala sees.
+  ClearPermsOwnerOnly:
+    Text: Kõik load saab tühjendada vaid ala omanik.
+  UntrustIndividualAllClaims:
+    Text: Mängija {0} ligipääs eemaldatud KÕIGILT sinu aladelt.  Ühe ala lubade määramiseks
+      seisa selle sees.
+    Notes: '0: untrusted player'
+  UntrustEveryoneAllClaims:
+    Text: Load tühjendatud KÕIGILT sinu aladelt.  Ühe ala lubade määramiseks seisa
+      selle sees.
+  NoPermissionTrust:
+    Text: Sul puudub siinsete lubade haldamiseks mängija {0} luba.
+    Notes: '0: claim owner''s name'
+  ClearPermissionsOneClaim:
+    Text: Selle ala load tühjendatud.  KÕIGI alade lubade määramiseks seisa neist
+      väljaspool.
+  UntrustIndividualSingleClaim:
+    Text: Mängija {0} ligipääs sellele alale on eemaldatud.  KÕIGI alade lubade määramiseks
+      seisa neist väljaspool.
+    Notes: '0: untrusted player'
+  OnlySellBlocks:
+    Text: Alaplokke saab vaid müüa, mitte osta.
+  BlockPurchaseCost:
+    Text: Iga alaplokk maksab {0}.  Sinu rahasumma on {1}.
+    Notes: '0: cost of one block; 1: player''s account balance'
+  ClaimBlockLimit:
+    Text: Oled jõudnud oma alaplokkide limiidini.  Sa ei saa neid juurde osta.
+  InsufficientFunds:
+    Text: Sul pole piisavalt raha.  Sa vajad {0}, kuid sul on vaid {1}.
+    Notes: '0: total cost; 1: player''s account balance'
+  PurchaseConfirmation:
+    Text: Sinu kontolt on maha võetud {0}.  Sul on nüüd kasutada {1} alaplokki.
+    Notes: '0: total cost; 1: remaining blocks'
+  OnlyPurchaseBlocks:
+    Text: Alaplokke saab vaid osta, mitte müüa.
+  BlockSaleValue:
+    Text: Iga alaplokk on väärt {0}.  Sul on võimalik müüa {1} plokki.
+    Notes: '0: block value; 1: available blocks'
+  NotEnoughBlocksForSale:
+    Text: Sul pole nii palju alaplokke, mida müüki panna.
+  BlockSaleConfirmation:
+    Text: Sinu kontole on lisatud {0}.  Sul on nüüd kasutada {0} alaplokki.
+    Notes: '0: amount deposited; 1: remaining blocks'
+  AdminClaimsMode:
+    Text: Administratiivsete alade režiim aktiveeritud.  Mistahes loodud alad on tasuta
+      ning teiste administraatorite poolt muudetavad.
+  BasicClaimsMode:
+    Text: Põhilisse ala loomise režiimi tagasi pöördutud.
+  SubdivisionMode:
+    Text: Alajaotise režiim.  Kasuta oma labidat, et luua alajaotisi olemasolevates
+      alades.  Väljumiseks kasuta /BasicClaims.
+  SubdivisionVideo2:
+    Text: 'Klõpsa alajaotiste abi saamiseks: {0}'
+    Notes: 0:video URL
+  DeleteClaimMissing:
+    Text: Siin puudub ala.
+  DeletionSubdivisionWarning:
+    Text: See ala sisaldab alajaotisi  Kui soovid kindlasti selle kustutada, kasuta
+      uuesti /DeleteClaim.
+  DeleteSuccess:
+    Text: Ala kustutatud.
+  CantDeleteAdminClaim:
+    Text: Sul puudub luba administratiivsete alade kustutamiseks.
+  DeleteAllSuccess:
+    Text: Mängija {0} kõik alad on kustutatud.
+    Notes: '0: owner''s name'
+  NoDeletePermission:
+    Text: Sul puudub luba alade kustutamiseks.
+  AllAdminDeleted:
+    Text: Kõik administratiivsed alad on kustutatud.
+  AdjustBlocksSuccess:
+    Text: 'Mängija {0} boonusalaplokke on reguleeritud {1} võrra.  Uus boonusplokkide
+      jääk: {2}.'
+    Notes: '0: player; 1: adjustment; 2: new total'
+  NotTrappedHere:
+    Text: Sa saad siin ehitada.  Päästa end ise.
+  RescuePending:
+    Text: Kui sa seisad paigal 10 sekundit, teleporditakse sind välja.  Palun oota.
+  NonSiegeWorld:
+    Text: Piiramine on siin keelatud.
+  AlreadySieging:
+    Text: Sa juba osaled piiramises.
+  NotSiegableThere:
+    Text: Mängija {0} pole seal kaitstud.
+    Notes: '0: defending player'
+  SiegeTooFarAway:
+    Text: Sa oled piiramiseks liiga kaugel.
+  NoSiegeYourself:
+    Text: Sa ei saa ennast piirata, ära ole rumal
+  NoSiegeDefenseless:
+    Text: See mängija on kaitsetu.  Mine kellegi teise kallale.
+  AlreadyUnderSiegePlayer:
+    Text: Mängijat {0} juba piiratakse.  Tule liitu peoga!
+    Notes: '0: defending player'
+  AlreadyUnderSiegeArea:
+    Text: Seda ala juba piiratakse.  Tule liitu peoga!
+  NoSiegeAdminClaim:
+    Text: Piiramine on selles alas keelatud.
+  SiegeOnCooldown:
+    Text: Sul on selle kaitsja või ala puhul jätkuvalt piiramise mahajahtumisaeg.  Leia
+      mõni teine ohver.
+  SiegeAlert:
+    Text: Oled ümber piiratud!  Kui sa praegu välja logid, sured.  Sa pead võitma
+      mängija {0}, ootama kuni ta alla annab või põgenema.
+    Notes: '0: attacker name'
+  SiegeConfirmed:
+    Text: Ümberpiiramine on alanud!  Kui sa praegu välja logid, sured.  Sa pead võitma
+      mängija {0}, ajama ta ära või nõustuma kaotusega ning eemale kõndima.
+    Notes: '0: defender name'
+  AbandonClaimMissing:
+    Text: Seisa alal, mida soovid kustutada või kaalu /AbandonAllClaims kasutamist
+      (kustutab kõik alad).
+  NotYourClaim:
+    Text: See pole sinu ala.
+  DeleteTopLevelClaim:
+    Text: Alajaotise kustutamiseks seisa selle sees. Vastasel korral kasuta /AbandonTopLevelClaim,
+      et kustutada see ala ja kõik alajaotised.
+  AbandonSuccess:
+    Text: Ala mahajäetud. Sul on nüüd kasutada {0} alaplokki.
+    Notes: '0: remaining claim blocks'
+  CantGrantThatPermission:
+    Text: Sa ei saa anda luba, mida sul endal pole.
+  GrantPermissionNoClaim:
+    Text: Seisa ala sees, kus soovid luba anda.
+  GrantPermissionConfirmation:
+    Text: Mängijale {0} antud luba {2} {1}.
+    Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
+  ManageUniversalPermissionsInstruction:
+    Text: KÕIGI alade lubade määramiseks seisa neist väljaspool.
+  ManageOneClaimPermissionsInstruction:
+    Text: Kindla ala lubade määramiseks seisa selle sees.
+  CollectivePublic:
+    Text: (kõik mängijad)
+    Notes: as in 'granted the public permission to...'
+  BuildPermission:
+    Text: ehitamiseks
+  ContainersPermission:
+    Text: konteinerite ja loomade kasutamiseks
+  AccessPermission:
+    Text: nuppude ja kangide kasutamiseks
+  PermissionsPermission:
+    Text: lubade haldamiseks
+  LocationCurrentClaim:
+    Text: selles alas
+  LocationAllClaims:
+    Text: kõigis sinu alades
+  PvPImmunityStart:
+    Text: Sind on kaitstud teiste mängijate rünnete eest nii kaua, kuni su seljakott
+      on tühi.
+  SiegeNoDrop:
+    Text: Sa ei saa esemeid ära anda, kuni oled ümber piiratud.
+  DonateItemsInstruction:
+    Text: Käes olevate esemete annetamiseks tee kirstul uuesti vasakklõps.
+  ChestFull:
+    Text: See kirst on täis.
+  DonationSuccess:
+    Text: Ese(med) on kirstu viidud!
+  PlayerTooCloseForFire2:
+    Text: Sa ei saa tulekahju alustada, kuni oled teisele mängijale nii lähedal.
+  TooDeepToClaim:
+    Text: Seda kirstu ei saa kaitsta, kuna see on liiga sügaval maa all.  Kaalu selle
+      liigutamist.
+  ChestClaimConfirmation:
+    Text: See kirst on kaitstud.
+  AutomaticClaimNotification:
+    Text: See kirst ning lähedalasuvad plokid on kaitstud lõhkumise ja varguse eest.
+  UnprotectedChestWarning:
+    Text: See kirst EI OLE kaitstud.  Kaalu kuldlabida kasutamist, et laiendada olemasolevat
+      ala või luua uus.
+  ThatPlayerPvPImmune:
+    Text: Sa ei saa vigastada kaitsetuid mängijaid.
+  CantFightWhileImmune:
+    Text: Sa ei saa kellegagi võidelda, kuni oled PvP eest kaitstud.
+  NoDamageClaimedEntity:
+    Text: See kuulub mängijale {0}.
+    Notes: '0: owner name'
+  ShovelBasicClaimMode:
+    Text: Labidas pöörduti tagasi põhilisse ala loomise režimi.
+  RemainingBlocks:
+    Text: Sa saad veel omastada kuni {0} plokki.
+    Notes: '0: remaining blocks'
+  CreativeBasicsVideo2:
+    Text: 'Klõpsa ala omastamise abi saamiseks: {0}'
+    Notes: '{0}: video URL'
+  SurvivalBasicsVideo2:
+    Text: 'Klõpsa ala omastamise abi saamiseks: {0}'
+    Notes: '{0}: video URL'
+  TrappedChatKeyword:
+    Text: kinni;lõksus
+    Notes: When mentioned in chat, players get information about the /trapped command
+      (multiple words can be separated with semi-colons)
+  TrappedInstructions:
+    Text: Kas oled kellegi alas lõksus?  Proovi käsklust /trapped.
+  PvPNoDrop:
+    Text: Sa ei saa esemeid kukutada, kuni oled PvP võitluses.
+  SiegeNoTeleport:
+    Text: Sa ei saa ümber piiratud alast välja teleporteeruda.
+  BesiegedNoTeleport:
+    Text: Sa ei saa ümber piiratud alasse teleporteeruda.
+  SiegeNoContainers:
+    Text: Sa ei saa konteinereid kasutada, kuni oled ümber piiratud.
+  PvPNoContainers:
+    Text: Sa ei saa konteinereid kasutada, kuni oled PvP võitluses.
+  PvPImmunityEnd:
+    Text: Nüüd sa saad teiste mängijatega võidelda.
+  NoBedPermission:
+    Text: Mängija {0} pole andnud sulle siin magamiseks luba.
+    Notes: '0: claim owner'
+  NoWildernessBuckets:
+    Text: Sa saad ämbreid tühjendada vaid oma ala(de)s või maa all.
+  NoLavaNearOtherPlayer:
+    Text: Sa ei saa asetada laavat, kuni oled mängijale {0} nii lähedal.
+    Notes: '0: nearby player'
+  TooFarAway:
+    Text: See on liiga kaugel.
+  BlockNotClaimed:
+    Text: Keegi pole seda plokki omastanud.
+  BlockClaimed:
+    Text: See plokk on omastatud mängija {0} poolt.
+    Notes: '0: claim owner'
+  SiegeNoShovel:
+    Text: Sa ei saa kasutada oma labidatööriista, kuni osaled ümberpiiramises.
+  RestoreNaturePlayerInChunk:
+    Text: Ei saa taastada, selles kamakas on mängija {0}.
+    Notes: '0: nearby player'
+  NoCreateClaimPermission:
+    Text: Sul puudub ala omastamiseks luba.
+  ResizeNeedMoreBlocks:
+    Text: Sul pole selle suuruse jaoks piisavalt plokke.  Sa vajad juurde {0} plokki.
+    Notes: '0: how many needed'
+  NoCreativeUnClaim:
+    Text: Sa ei saa seda ala maha jätta.  Sa saad vaid seda ala suuremaks teha või
+      uusi alasid juurde teha.
+  ClaimResizeSuccess:
+    Text: Ala suurus muudetud.  Sul on jäänud kasutada {0} alaplokki.
+    Notes: '0: remaining blocks'
+  ResizeFailOverlap:
+    Text: Siin ei saa suurust muuta, kuna see kattuks teise lähedalasuva alaga.
+  ResizeStart:
+    Text: Ala suuruse muutmine.  Kasuta oma labidat uuesti selle nurga uues kohas.
+  ResizeFailOverlapSubdivision:
+    Text: Sa ei saa siia alajaotist luua, kuna see kattuks teise alajaotisega.  Kaalu
+      /AbandonClaim kasutamist selle kustutamiseks või kasuta nurgas oma labidat selle
+      suuruse muutmiseks.
+  SubdivisionStart:
+    Text: Alajaotise nurk määratud!  Kasuta oma labidat selle alajaotise vastasnurgas.
+  CreateSubdivisionOverlap:
+    Text: Sinu valitud ala kattub teise alajaotisega.
+  SubdivisionSuccess:
+    Text: Alajaotus loodud!  Kasuta /Trust, et seda sõpradega jagada.
+  CreateClaimFailOverlap:
+    Text: Sa ei saa siia ala luua, kuna see kattuks sinu teise alaga. Kasuta selle
+      kustutamiseks /AbandonClaim või kasuta oma labidat nurgas selle suuruse muutmiseks.
+  CreateClaimFailOverlapOtherPlayer:
+    Text: Sa ei saa siia ala luua, kuna see kattuks mängija {0} alaga.
+    Notes: '0: other claim owner'
+  ClaimsDisabledWorld:
+    Text: Ala omastamine on selles maailmas keelatud.
+  ClaimStart:
+    Text: Ala nurk määratud!  Kasuta labidat uuesti vastasnurgas, et hankida ristkülikukujuline
+      ala.  Tühistamiseks pane oma labidas ära.
+  NewClaimTooNarrow:
+    Text: See ala oleks liiga väike.  Iga ala peab olema vähemalt {0} plokki lai.
+    Notes: '0: minimum claim width'
+  CreateClaimInsufficientBlocks:
+    Text: Sul pole kogu selle ala omastamiseks piisavalt alaplokke.  Sa vajad veel
+      {0} plokki.
+    Notes: '0: additional blocks needed'
+  AbandonClaimAdvertisement:
+    Text: Teise ala kustutamiseks ning paarikümne ploki vabastamiseks kasuta /AbandonClaim.
+  CreateClaimFailOverlapShort:
+    Text: Sinu valitud ala kattub olemasoleva alaga.
+  CreateClaimSuccess:
+    Text: Ala loodud!  Sõpradega jagamiseks kasuta /Trust.
+  SiegeWinDoorsOpen:
+    Text: Õnnitleme!  Nupud ja kangid on ajutiselt lahti lukustatud.
+  RescueAbortedMoved:
+    Text: Sa liikusid!  Päästmine tühistatud.
+  SiegeDoorsLockedEjection:
+    Text: Röövimise aeg on läbi!  Oled alalt välja visatud.
+  NoModifyDuringSiege:
+    Text: Alasid ei saa ümber piiramise ajal muuta.
+  OnlyOwnersModifyClaims:
+    Text: Ainult mängija {0} saab seda ala muuta.
+    Notes: '0: owner name'
+  NoBuildUnderSiege:
+    Text: See ala on mängija {0} poolt ümber piiratud.  Keegi ei saa siin ehitada.
+    Notes: '0: attacker name'
+  NoBuildPvP:
+    Text: Sa ei saa PvP võitluse ajal alades ehitada.
+  NoBuildPermission:
+    Text: Sul puudub siin ehitamiseks mängija {0} luba.
+    Notes: '0: owner name'
+  NonSiegeMaterial:
+    Text: See materjal on lõhkumiseks liiga tugev.
+  NoOwnerBuildUnderSiege:
+    Text: Sa ei saa ümberpiiramise ajal muutusi teha.
+  NoAccessPermission:
+    Text: Sul puudub selle kasutamiseks mängija {0} luba.
+    Notes: '0: owner name.  access permission controls buttons, levers, and beds'
+  NoContainersSiege:
+    Text: See ala on mängija {0} poolt ümber piiratud.  Keegi ei saa siin hetkel konteinereid
+      kasutada.
+    Notes: '0: attacker name'
+  NoContainersPermission:
+    Text: Sul puudub selle kasutamiseks mängija {0} luba.
+    Notes: '0: owner''s name.  containers also include crafting blocks'
+  OwnerNameForAdminClaims:
+    Text: (mõni admin)
+    Notes: as in 'You don't have an administrator's permission to build here.'
+  ClaimTooSmallForEntities:
+    Text: See ala pole selle jaoks piisavalt suur.  Proovi seda suurendada.
+  TooManyEntitiesInClaim:
+    Text: Selles alas on juba liiga palju olemeid.  Proovi ala suurendada või eemaldada
+      loomi, koletisi, maale või kaevanduskärusid.
+  YouHaveNoClaims:
+    Text: Sul pole ühtegi omastatud ala.
+  ConfirmFluidRemoval:
+    Text: Selle ala mahajätmine eemaldab alas oleva laava.  Kui oled kindel, kasuta
+      uuesti /AbandonClaim.
+  AutoBanNotify:
+    Text: Mängija {0} on automaatselt blokeeritud ({1}).  Lisainfo saamiseks vaata
+      logisid.
+  AdjustGroupBlocksSuccess:
+    Text: 'Loaga {0} mängijatel on boonusalaplokke reguleeritud {1} võrra.  Uus jääk:
+      {2}.'
+    Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
+  InvalidPermissionID:
+    Text: Palun sisesta mängija nimi või [sulgudes luba].
+  HowToClaimRegex:
+    Text: .*(kas|kuidas|mida).*(ala|prot|land|claim|kaits|luk[u|k]|kirst|chest).*
+    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used
+      to tell players about the demo video when they ask how to claim land. Originaal
+      oli (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
+  NoBuildOutsideClaims:
+    Text: Sa ei saa ehitada, kuni sa pole omale ala omastanud.
+  PlayerOfflineTime:
+    Text: '  Viimane sisselogimine: {0} päeva tagasi.'
+    Notes: '0: number of full days since last login'
+  BuildingOutsideClaims:
+    Text: Teised mängijad saavad siin samuti ehitada. Kaalu omale ala omastamist,
+      et oma tööd kaitsta!
+  TrappedWontWorkHere:
+    Text: Vabandust, me ei leidnud sulle teleporteerumiseks turvalist kohta.  Kontakteeru
+      adminiga.
+  CommandBannedInPvP:
+    Text: Sa ei saa seda käsklust kasutada, kuni oled PvP võitluses.
+  UnclaimCleanupWarning:
+    Text: Ala, mille oled maha jätnud võidakse muuta teiste mängijate poolt või tühjendada
+      adminite poolt. Kui oled ehitanud midagi, mida soovid säilitada, peaksid selle
+      uuesti omastama.
+  BuySellNotConfigured:
+    Text: Vabandust, alaplokkide müümine ja ostmine on keelatud.
+  NoTeleportPvPCombat:
+    Text: Teise mängijaga võitlemise ajal ei saa teleporteeruda.
+  NoTNTDamageAboveSeaLevel:
+    Text: 'Hoiatus: dünamiit ei lõhu meretasemest kõrgemal olevaid plokke.'
+  NoTNTDamageClaims:
+    Text: 'Hoiatus: dünamiit ei lõhu omastatud plokke.'
+  IgnoreClaimsAdvertisement:
+    Text: Sundimiseks kasuta /IgnoreClaims.
+  NoPermissionForCommand:
+    Text: Sul puudub selle tegevuse jaoks luba.
+  ClaimsListNoPermission:
+    Text: Sul puudub luba teise mängija omastatud ala teabe saamiseks.
+  ExplosivesDisabled:
+    Text: See ala on nüüd plahvatuste eest kaitstud.  Kasuta keelamiseks uuesti /ClaimExplosions.
+  ExplosivesEnabled:
+    Text: See ala ei ole enam nüüd plahvatuste eest kaitstud.  Kasuta lubamiseks uuesti
+      /ClaimExplosions.
+  ClaimExplosivesAdvertisement:
+    Text: Et lubada lõhkekehadel siin alas plokke lõhkuda, kasuta /ClaimExplosions.
+  PlayerInPvPSafeZone:
+    Text: See mängija on PvP-turvatsoonis.
+  NoPistonsOutsideClaims:
+    Text: 'Hoiatus: kolvid ei liigu aladest väljapoole.'
+  SoftMuted:
+    Text: Mängija {0} on vaikselt vaigistatud.
+    Notes: '0: The changed player''s name.'
+  UnSoftMuted:
+    Text: Mängija {0} ei ole enam vaikselt vaigistatud.
+    Notes: '0: The changed player''s name.'
+  DropUnlockAdvertisement:
+    Text: Teised mängijad ei saa üles korjata sinu maha visatud esemeid, kuni sa ei
+      kasuta /UnlockDrops.
+  PickupBlockedExplanation:
+    Text: Sa ei saa seda üles korjata, kuni mängija {0} kasutab /UnlockDrops.
+    Notes: '0: The item stack''s owner.'
+  DropUnlockConfirmation:
+    Text: Mahaviskamised on nüüd lukustamata.  Teised mängijad saavad nüüd neid üles
+      korjata (kuni sa uuesti sured).
+  DropUnlockOthersConfirmation:
+    Text: Mängija {0} mahaviskamised on nüüd lukustamata.
+    Notes: '0: The owner of the unlocked drops.'
+  AdvertiseACandACB:
+    Text: Sa võid kasutada /ACB, et hankida omale rohkem alaplokke või /AdminClaims,
+      et luua tasuta administratiivne ala.
+  AdvertiseAdminClaims:
+    Text: Sa võid selle asemel luua administratiivse ala /AdminClaims abil, mida jagaksid
+      sa teiste adminitega.
+  AdvertiseACB:
+    Text: Sa võid kasutada /ACB, et anda omale alaplokke juurde.
+  NotYourPet:
+    Text: See kuulub mängijale {0}, kuni see on sulle antud käsuga /GivePet.
+    Notes: '0: owner name'
+  PetGiveawayConfirmation:
+    Text: Lemmikloom ära antud.
+  PetTransferCancellation:
+    Text: Lemmiklooma ära andmine tühistatud.
+  ReadyToTransferPet:
+    Text: Valmis ära andmiseks!  Paremklõpsa koduloomal, keda soovid ära anda või
+      tühista käsuga /GivePet cancel.
+  AvoidGriefClaimLand:
+    Text: Väldi rüüstamist!  Kui omastad oma ala, on see rüüstamise eest kaitstud.
+  BecomeMayor:
+    Text: Loo alal jaotisi ning saa linnapeaks!
+  ClaimCreationFailedOverClaimCountLimit:
+    Text: Oled jõudnud oma ala omastamise limiidini.  Kasuta /AbandonClaim, et eemaldada
+      üks ala enne järgmise loomast.
+  CreateClaimFailOverlapRegion:
+    Text: Sa ei saa seda kõike omastada, kuna sa ei tohi siin ehitada.
+  ResizeFailOverlapRegion:
+    Text: Sul pole luba siia ehitamiseks, seega sa ei saa seda ala omastada.
+  ShowNearbyClaims:
+    Text: '{0} omastatud ala leitud.'
+    Notes: '0: Number of claims found.'
+  NoChatUntilMove:
+    Text: Vabandust, aga sa pead natuke liikuma, enne kui saad rääkida.  Me saame
+      siin mitmeid spammiroboteid.  :)
+  SiegeImmune:
+    Text: See mängija on /Siege-le immuunne.
+  SetClaimBlocksSuccess:
+    Text: Kogunenud alaplokid uuendatud.
+  IgnoreConfirmation:
+    Text: Sa ignoreerid nüüd selle mängija sõnumeid.
+  NotIgnoringPlayer:
+    Text: Sa ei ignoreeri seda mängijat.
+  UnIgnoreConfirmation:
+    Text: Sa ei ignoreeri enam selle mängija sõnumeid.
+  SeparateConfirmation:
+    Text: Need mängijad ignoreerivad nüüd üksteise sõnumeid.
+  UnSeparateConfirmation:
+    Text: Need mängijad ei ignoreeri enam teineteise sõnumeid.
+  NotIgnoringAnyone:
+    Text: Sa ei ignoreeri kedagi.
+  TrustListHeader:
+    Text: 'Siinsed otsesed load:'
+  Manage:
+    Text: Haldamine
+  Build:
+    Text: Ehitamine
+  Containers:
+    Text: Konteinerid
+  Access:
+    Text: Ligipääs
+  HasSubclaimRestriction:
+    Text: See alajaotis ei päri lubasid oma vanemalt
+  StartBlockMath:
+    Text: '{0} plokki mängimisest + {1} boonus = {2} kokku.'
+  ClaimsListHeader:
+    Text: 'Alad:'
+  ContinueBlockMath:
+    Text: ' (-{0} plokki)'
+  EndBlockMath:
+    Text: ' = {0} plokki jäänud kulutada'
+  NoClaimDuringPvP:
+    Text: Saa ei saa PvP võitluse ajal alasid omastada.
+  UntrustAllOwnerOnly:
+    Text: Ainult ala omanik saab tühjendada kõik selle load.
+  ManagersDontUntrustManagers:
+    Text: Ainult ala omanik saab haldaja lubasid vähendada.
+  BookAuthor:
+    Text: BigScary
+  BookTitle:
+    Text: Kuidas ala omastada
+  BookIntro:
+    Text: Omasta ala, et oma asju kaitsta!  Klõpsa ülalolevat linki, et õppida ala
+      omastamist 3 minutiga või vähem.  :)
+  BookDisabledChestClaims:
+    Text: '  Sellel serveril EI omasta kirstu asetamine sulle ala.'
+  BookUsefulCommands:
+    Text: 'Kasulikud käsklused:'
+  BookLink:
+    Text: 'Klõpsa: {0}'
+    Notes: '{0}: video URL'
+  BookTools:
+    Text: Meie ala omastamise tööriistad on {0} ja {1}.
+    Notes: '0: claim modification tool name; 1:claim information tool name'
+  ResizeClaimTooNarrow:
+    Text: See uus suurus oleks liiga väike.  Alad peavad olema vähemalt {0} plokki
+      laiad.
+    Notes: '0: minimum claim width'
+  ResizeClaimInsufficientArea:
+    Text: See ala oleks liiga väike.  Mistahes omastatud ala peab kasutama kokku vähemalt
+      {0} alaplokki.
+    Notes: '0: minimum claim area'
+  NoProfanity:
+    Text: Palun jälgi oma sõnavara.
+  PlayerNotIgnorable:
+    Text: Sa ei saa seda mängijat ignoreerida.
+  NoEnoughBlocksForChestClaim:
+    Text: Sulle ei loodud automaatselt omastatud ala, kuna sul pole kasutada ühtegi
+      alaplokki.  Alaplokkide jäägi nägemiseks võid kasutada käsklust /ClaimsList.
+  IsIgnoringYou:
+    Text: See mängija ignoreerib sind.
+  MustHoldModificationToolForThat:
+    Text: Selle tegemiseks pead käes hoidma kuldlabidat.
+  StandInClaimToResize:
+    Text: Seisa ala sees, mille suurust soovid muuta.
+  ClaimsExtendToSky:
+    Text: Omastatud alad laienevad alati maksimaalse ehituskõrguseni.
+  ClaimsAutoExtendDownward:
+    Text: Omastatud alad laienevad automaatselt sügavamale pinna sisse, kui asetad
+      nende alla plokke.
+  MinimumRadius:
+    Text: Minimaalne raadius on {0}.
+    Notes: '0: minimum radius'
+  RadiusRequiresGoldenShovel:
+    Text: Raadiuse määramisel pead sa hoidma kuldlabidat.
+  ClaimTooSmallForActiveBlocks:
+    Text: See ala ei ole piisavalt suur, et toetada aktiivseid plokitüüpe (püüdjad,
+      tekitajad, majakad...).  Tee ala enne suuremaks.
+  TooManyActiveBlocksInClaim:
+    Text: See ala on jõudnud aktiivsete plokkide limiidini (püüdjad, tekitajad, majakad...).  Tee
+      see suuremaks või eemalda enne teised aktiivsed plokid.
+  ConsoleOnlyCommand:
+    Text: Seda käsklust saab kasutada vaid serveri konsoolist.
+  WorldNotFound:
+    Text: Maailma ei leitud.
+  AdjustBlocksAllSuccess:
+    Text: Kõigi võrgusolevate mängijate boonusalaplokke on reguleeritud {0} võrra.
+    Notes: '0: adjustment amount'
+  TooMuchIpOverlap:
+    Text: Vabandust, sinu IP-aadressilt on sisse loginud liiga palju mängijaid.
+  StandInSubclaim:
+    Text: Alajaotise piiramiseks pead sa selles seisma
+  SubclaimRestricted:
+    Text: Selle alajaotise lubasid ei pärita enam vanemalast
+  SubclaimUnrestricted:
+    Text: Selle alajaotise load päritakse nüüd vanemalast
+  NetherPortalTrapDetectionMessage:
+    Text: Tundub, et sa võid olla Netheri portaalis kinni. Me päästame sind mõne sekundi
+      pärast välja, kui see tõesti on nii!
+    Notes: Sent to player on join, if they left while inside a nether portal.
