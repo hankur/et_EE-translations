@@ -14,7 +14,7 @@ Messages:
       kasuta /BasicClaims.
   RestoreNatureAggressiveActivate:
     Text: Agressiivne režiim aktiveeritud.  ÄRA kasuta seda millegi all, mida soovid
-      alles jätta!  Agresiivseks looduse taastamiseks paremklõpsa, lõpetamiseks kasuta
+      alles jätta!  Agressiivseks looduse taastamiseks paremklõpsa, lõpetamiseks kasuta
       /BasicClaims.
   FillModeActive:
     Text: Täitmisrežiim aktiveeritud raadiusega {0}.  Täitmiseks paremklõpsa alal.
