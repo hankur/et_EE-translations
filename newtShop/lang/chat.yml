@@ -1,0 +1,126 @@
+# Customize chat messages. Support alternate color codes
+chat-messages:
+   # Message sent when a player buys an item
+   # @amount@ = number of items bought
+   # @item@ = the item bought
+   # @price@ = the amount purchased for
+   buy-message: "&7Ostsid &e@amount@ @item@ &7hinnaga &e@price@"
+   
+   # Message sent when a player doesn't have enough money to buy an item
+   not-enough-money: "&cSul pole piisavalt raha!"
+   
+   # Message sent when a player doesn't have enough inventory space to buy an item
+   not-enough-space: "&cSul pole seljakotis piisavalt ruumi!"
+   
+   # Message sent when a player sells an item
+   # @amount@ = number of items bought
+   # @item@ = the item bought
+   # @price@ = the amount sold for
+   sell-message: "&7Müüsid &e@amount@ @item@ &7hinnaga &e@price@"
+   
+   # Message sent when a player doesn't have enough of an item to sell
+   not-enough-items: "&cSul pole seda piisavalt, et müüa!"
+   
+   # Message sent when an item can't be sold with /sell or /sellall
+   cant-sell: "&cSeda eset ei saa müüa!"
+   
+   # Message sent to confirm /sell
+   # @amount@ = number of items bought
+   # @item@ = the item bought
+   # @price@ = the amount sold for
+   confirm-sell: "&7Kirjuta uuesti \"/sell\", et kinnitada eseme &e@amount@ @item@ &7müük hinnaga &e@price@"
+   
+   # Message sent when /sell is used with too many arguments
+   sell-arguments: "&cLiiga palju parameetreid! Kasutus: /sell"
+   
+   # Message sent to confirm /sellall
+   # @amount@ = number of items bought
+   # @item@ = the item bought
+   # @price@ = the amount sold for
+   confirm-sellall: "&7Kirjuta uuesti \"/sellall\", et kinnitada esemete &e@amount@ @item@ &7müük hinnaga &e@price@"
+   
+   # Message sent when /sellall is used with too many arguments
+   sellall-arguments: "&cLiiga palju parameetreid! Kasutus: /sellall"
+   
+   # Message sent to confirm /sellinv
+   # @list@ = the list of items to be sold
+   confirm-sellinv: "&7Kirjuta uuesti \"/sellinv\", et kinnitada @list@ müük"
+   
+   # Message sent when /sellinv is used with too many arguments
+   sellinv-arguments: "&cLiiga palju parameetreid! Kasutus: /sellinv"
+   
+   # Message sent when items are sold with /sellinv
+   # @amount@ = the amount of items sold
+   # @price@ = the total amount sold for
+   sellinv-message: "&7&e@amount@ eset müüdud &7hinnaga &e@price@"
+   
+   # Message sent when a player uses /sellinv but has no sellable items
+   nothing-to-sell: "&cÜhtegi eset ei müüda!"
+   
+   # Message sent when /shop is used with too many arguments
+   shop-arguments: "&cLiiga palju parameetreid! Kasutus: /shop või /shop <kategooria>"
+   
+   # Message sent when /shop <category> is used and the category doesn't exist
+   shop-no-category: "&cSelle nimega kategooria puudub!"
+   
+   # Message sent when /shop is used with too many arguments and tab complete is disabled
+   shop-arguments-notab: "&cLiiga palju parameetreid! Kasutus: /shop"
+   
+   # Message sent when a player doesn't have permission for a command
+   no-permission: "&cSul puudub selleks luba!"
+   
+   # Message sent when a player uses the /shop reload command
+   reload: "&aSeadistused edukalt taaslaaditud!"
+   
+   # Message sent when /shopmanage is used with incorrect arguments
+   manage-arguments: "&cSobimatud parameetrid! Kasutus: /shopmanage <add|edit> ..."
+   
+   # Message sent when the category given in /shopmanage doesn't exist
+   # @category@ = the category used in the command
+   manage-no-category: "&cSelle nimega kategooria puudub: @category@!"
+   
+   # Message sent when '/shopmanage add' is used with incorrect arguments
+   manage-add-arguments: "&cSobimatud parameetrid! Kasutus: /shopmanage add <kategooria_id> <eseme_id> <ost> <müük> <poe_nimi>"
+   
+   # Message sent when '/shopmanage edit' is used with incorrect arguments
+   manage-edit-arguments: "&cSobimatud parameetrid! Kasutus: /shopmanage edit <buy|sell> <kategooria_id> <eseme_id> <hind>"
+   
+   # Message sent when an item is added with '/shopmanage add'
+   # @item@ = the item added
+   manage-item-added: "&aEse edukalt lisatud: @item@!"
+   
+   # Message sent when a buy price is updated with '/shopmanage edit buy'
+   # @item@ = the item that was updated
+   # @price@ = the new price
+   manage-buy-changed: "&aEseme @item@ ostuhind määratud: &e@price@"
+   
+   # Message sent when a sell price is updated with '/shopmanage edit sell'
+   # @item@ = the item that was updated
+   # @price@ = the new price
+   manage-sell-changed: "&aEseme @item@ müügihind määratud: &e@price@"
+   
+   # Message sent when a player places a sell chest
+   sell-chest-placed: "&aSa asetasid müügikirstu!"
+   
+   # Message sent when a player tries to place a sell chest next to another chest
+   sell-chest-double: "&cSa ei saa asetada müügikirste teiste kirstude juurde!"
+   
+   # Message sent when a player tries to place a sell chest, but isn't allowed
+   sell-chest-no-place-permission: "&cSul puudub luba müügikirstude asetamiseks!"
+   
+   # Message sent when a player tries to break a sell chest, but isn't allowed
+   sell-chest-no-break-permission: "&cSul puudub luba müügikirstude lõhkumiseks!" 
+   
+   # Message sent when a player receives money from sell chests
+   # @amount@ = the amount earned
+   sell-chest-sold: "&7Sa teenisid oma müügikirstudelt &e@amount@&7!"
+   
+   # Message sent when a player receives money from using the sell wand
+   # @amount@ = the amount earned
+   sell-wand-sold: "&7Sa teenisid oma müügi-võlukepiga&e@amount@&7!"
+   
+   # Message sent when a player uses the sell wand on a block that isn't a container
+   sell-wand-not-container: "&cSee ei ole konteiner!"
+   
+   # Message sent when a player uses the sell wand on a container with no sellable items
+   sell-wand-nothing-to-sell: "&cSelles konteineris pole midagi müüdavat!"

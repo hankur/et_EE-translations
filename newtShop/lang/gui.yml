@@ -1,0 +1,61 @@
+# Customize GUI messages. Support alternate color codes
+gui-messages:
+   # Title of the main shop GUI
+   shop-name: "Pood"
+   
+   # Prefix for the titles of the "Item Shop - $item" GUIs
+   item-shop-name: "Esemepood - "
+
+   # Button label for the sell inventory button, if enabled
+   sellinv: "&cMüü seljakott"
+
+   # Button label to return to the categories screen
+   return-to-categories: "&9Tagasi kategooriatesse"
+   
+   # Button label for the exit button
+   exit: "&cVälju"
+   
+   # Button label for the next page button
+   next-page: "&fJärgmine leht"
+   
+   # Button label for the previous page button
+   prev-page: "&fEelmine leht"
+   
+   # Button label for buy buttons
+   # @amount@ = number of items to buy
+   buy: "&aOsta @amount@ tk"
+   
+   # Button label for sell buttons
+   # @amount@ = number of items to sell
+   sell: "&cMüü @amount@ tk"
+   
+   # Button label for the fill inventory button
+   fill-inv: "&aTäida seljakott"
+   
+   # Lore for the fill inventory button
+   # @amount@ = number of items to buy
+   # @price@ = the amount purchased for
+   fill-inv-lore: "&7Osta @amount@ tk hinnaga &e@price@"
+   
+   # Button label for the sell all button
+   sell-all: "&cMüü kõik"
+   
+   # Lore for the sell all button
+   # @amount@ = number of items to sell
+   # @price@ = the amount sold for
+   sell-all-lore: "&7Müü @amount@ tk hinnaga &e@price@"
+   
+   # Button label to return to the item list
+   # @category@ = the category to return to
+   return-to-items: "&9Tagasi kategooriasse @category@"
+   
+   # Button label for the emerald that shows the player's balance
+   balance: "&2Rahasumma"
+   
+   # Text shown for the buy price in price previews
+   # @price@ = the buy price
+   preview-buy: "&aOsta: &e@price@"
+   
+   # Text shown for the sell price in price previews
+   # @price@ = the sell price
+   preview-sell: "&cMüü: &e@price@"
