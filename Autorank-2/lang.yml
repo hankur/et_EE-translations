@@ -1,0 +1,149 @@
+# Language file
+
+ADVANCEMENT-MULTIPLE-REQUIREMENT: Oma vähemalt {0} edasijõudmist
+ADVANCEMENT-SINGLE-REQUIREMENT: Hangi edasijõudmine '{0}'
+ALREADY-COMPLETED-PATH: kuid on selle raja juba varem läbinud.
+ALREADY-COMPLETED-REQUIREMENT: '&cOled selle nõude juba täitnud!'
+ALREADY-ON-THIS-PATH: '&cOled juba sellel rajal!'
+AND: ja
+ANIMALS-BRED-REQUIREMENT: Kasvata vähemalt {0} looma
+AURELIUM-SKILLS-MANA-REQUIREMENT: Oma vähemalt {0} mana.
+AURELIUM-SKILLS-SKILL-REQUIREMENT: Hangi tase {0} oskuses {1}.
+AURELIUM-SKILLS-STAT-REQUIREMENT: Hangi tase {0} oskuses {1}.
+AURELIUM-SKILLS-XP-REQUIREMENT: Oma {0} kogemust oskuses {1}.
+AUTOMATICALLY-ASSIGNED-PATH: '&2Sulle on automaatselt määratud rada ''&6{0}&2''.'
+AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Oma vähemalt {0} aktiivset rada.
+AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Oma vähemalt {0} rada.
+AUTORANK-RELOADED: '&3Autoranki failid on taaslaetud.'
+AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Oma aktiivse rajana '{0}'.
+AUTORANK-SPECIFIC-COMPLETED-PATH-REQUIREMENT: Ole lõpetanud raja '{0}'.
+AUTORANK-TIMES-HEADER: '&a----------- [&6{0}&a ajad] -----------'
+AUTORANK-TIMES-PLAYER-PLAYED: '&6{0}&9 mänginud:'
+AUTORANK-TIMES-THIS-MONTH: '&eSee kuu: &d{0}'
+AUTORANK-TIMES-THIS-WEEK: '&cSee nädal: &d{0}'
+AUTORANK-TIMES-TODAY: '&3Täna: &d{0}'
+AUTORANK-TIMES-TOTAL: '&aKokku: &d{0}'
+BENTOBOX-LEVEL-REQUIREMENT: Oma vähemalt {0} saaretaset.
+BLOCKS-MOVED-REQUIREMENT: Liigu vähemalt {0} {1}
+BROKEN-BLOCKS-REQUIREMENT: Lõhu vähemalt {0}
+CAKESLICES-EATEN-REQUIREMENT: Söö vähemalt {0} viilu kooki
+CANNOT-CHECK-CONSOLE: '&cKonsooli ei saa kontrollida!'
+CHOSEN-PATH: '&2Sa oled valinud raja &7''{0}''&2.'
+COMMAND-RESULT: 'Sooritatakse järgnevad käsud: {0}'
+COMPLETED-PATH-NOW: ' ja nüüd lõpetas oma raja.'
+COMPLETED-REQUIREMENT: '&2Täitsid nõude &6{0}&2: &3{1}'
+DAMAGE-TAKEN-REQUIREMENT: Võta vähemalt {0} kahju
+DAY-PLURAL: päeva
+DAY-SINGULAR: päev
+DONE-MARKER: Tehtud
+DO-NOT-MEET-REQUIREMENTS-FOR: '&cSa ei vasta #&6{0}&c nõuetele:'
+EFFECT-RESULT: Mängi enda peal '{0}' efekti.
+ESSENTIALS-GEOIP-LOCATION-REQUIREMENT: Ela asukohas {0}
+EXP-REQUIREMENT: Oma vähemalt {0} taset
+FACTIONS-POWER-REQUIREMENT: Oma factionis vähemalt {0} võimu
+FISH-CAUGHT-REQUIREMENT: Püüa vähemalt {0} kala
+FOOD-EATEN-REQUIREMENT: Söö vähemalt {0}
+GAMEMODE-REQUIREMENT: Ole mängurežiimis {0}
+GLOBAL-TIME-REQUIREMENT: Mängi mõnes serveris vähemalt {0}
+GRIEF-PREVENTION-BONUS-BLOCKS-REQUIREMENT: Oma GriefPreventionis vähemalt {0} boonusplokki
+GRIEF-PREVENTION-CLAIMED-BLOCKS-REQUIREMENT: Oma GriefPreventionis vähemalt {0} kasutatud alaplokki
+GRIEF-PREVENTION-CLAIMS-COUNT-REQUIREMENT: Oma GriefPreventionis vähemalt {0} ala
+GRIEF-PREVENTION-REMAINING-BLOCKS-REQUIREMENT: Oma GriefPreventionis vähemalt {0} kasutamata alaplokki 
+GROUP-REQUIREMENT: Oma rolli {0}.
+HAS-PLAYED-FOR: '&6{0}&7 on mänginud {1}.'
+HOUR-PLURAL: tundi
+HOUR-SINGULAR: tund
+INVALID-FORMAT: '&cVigane formaat, kasuta {0}.'
+INVALID-LEADERBOARD-TYPE: '&cKehtiv edetabelitüüp pole määratud! &eAinult
+  ''total'', ''daily'', ''weekly'' and ''monthly'' on lubatud.'
+INVALID-NUMBER: '&c{0} ei ole sobiv number!'
+IN-BIOME-REQUIREMENT: Ole bioomis {0}
+ITEMS-CRAFTED-REQUIREMENT: Valmista vähemalt {0} eset
+ITEMS-ENCHANTED-REQUIREMENT: Loitsi vähemalt {0} eset
+ITEM-CRAFTED-REQUIREMENT: Valmista vähemalt {0} {1}.
+ITEM-REQUIREMENT: Oma {0}
+ITEM-THROWN-REQUIREMENT: Viska vähemalt {0} {1}.
+JOBS-CURRENT-POINTS-REQUIREMENT: Oma Jobsis vähemalt {0} punkti
+JOBS-EXPERIENCE-REQUIREMENT: Oma tööl '{1}' vähemalt {0} kogemust
+JOBS-LEVEL-REQUIREMENT: Oma tööl '{1}' vähemalt {0} taset
+JOBS-TOTAL-POINTS-REQUIREMENT: Oma Jobsis kokku vähemalt {0} punkti
+LAST-LOGIN-LOGIN-REQUIREMENT: Viimasest sisselogimisest möödunud vähemalt {0} minutit
+LAST-LOGIN-LOGOUT-REQUIREMENT: Viimasest väljalogimisest möödunud vähemalt {0} minutit
+LEADERBOARD-FOOTER: '&a------------------------------------'
+LEADERBOARD-HEADER-ALL-TIME: '&a-------- Edetabel (Kogu aeg) --------'
+LEADERBOARD-HEADER-DAILY: '&a-------- Edetabel (Päeva aeg) --------'
+LEADERBOARD-HEADER-MONTHLY: '&a-------- Edetabel (Kuu aeg) --------'
+LEADERBOARD-HEADER-WEEKLY: '&a-------- Edetabel (Nädala aeg) --------'
+LOCATION-REQUIREMENT: Ole asukohas {0}
+MCMMO-POWER-LEVEL-REQUIREMENT: Oma võimutaset vähemalt {0}
+MCMMO-SKILL-LEVEL-REQUIREMENT: Oma {1} vähemalt {0} taset
+MCRPG-POWER-LEVEL-REQUIREMENT: Oma võimutaset vähemalt {0}
+MCRPG-SKILL-LEVEL-REQUIREMENT: Oma {1} vähemalt {0} taset
+MEETS-ALL-REQUIREMENTS: vastab kõigile raja {0} nõuetele 
+MEETS-ALL-REQUIREMENTS-WITHOUT-RANK-UP: vastab kõigile nõuetele
+MESSAGE-RESULT: 'Saadab sulle järgneva sõnumi: {0}'
+MINUTE-PLURAL: minutit
+MINUTE-SINGULAR: minut
+MONEY-REQUIREMENT: Oma vähemalt {0}.
+MONEY-RESULT: Sulle antakse {0}.
+MYSQL-IS-NOT-ENABLED: '&cMySQL pole lubatud!'
+NO-FURTHER-PATH-FOUND: mitte ühtegi (rada ei leitud)
+NO-PATHS-TO-CHOOSE: '&cPole ühtegi rada, mida saaksid valida.'
+NO-PATH-FOUND-WITH-THAT-NAME: '&cPole ühtegi sellenimelist rada.'
+NO-PATH-LEFT-TO-CHOOSE: '&2{0} on mänginud {1} ja hetkel pole ühtegi aktiivset rada. Pole ühtegi saadavalolevat rada.'
+NO-PERMISSION: '&cSelleks vajad ({0})!'
+OPTIONAL-MARKER: Valikuline
+PARTIAL-COMPLETION-NOT-ENABLED: '&cSa ei saa seda käsku kasutada, kuna see server pole osalist lõpetamist lubanud!'
+PATH-IS-NOT-ACTIVE: Rada {0} ei ole sinu jaoks aktiivne.
+PATH-NOT-ALLOWED-TO-RETAKE: '&cOled selle raja juba varem läbinud. Sul ei ole lubatud seda uuesti võtta!'
+PERMISSION-REQUIREMENT: Oma luba {0}
+PLACED-BLOCKS-REQUIREMENT: Aseta vähemalt {0}
+PLANTS-POTTED-REQUIREMENT: Istuta potti vähemalt {0} taime
+PLAYERPOINTS-POINTS-REQUIREMENT: Hangi vähemalt {0} mängijapunkti.
+PLAYER-IS-EXCLUDED: '&c{0} on astmete süsteemist välistatud!'
+PLAYER-IS-INVALID: '&6{0}&c pole kunagi sisseloginud.'
+PLAYER-KILLS-REQUIREMENT: Tapa vähemalt {0} mängija(t)
+PLAYER-NOT-ONLINE: '&6{0}&c ei ole võrgus!'
+PLAYTIME-CHANGED: Mänguaega muudetud, {0} -> {1}.
+PROGRESS-RESET: '&eSinu rajaprogress lähtestatakse.'
+PROGRESS-RESTORED: '&eSinu rajaprogress on taastatud.'
+QUESTS-ACTIVE-QUESTS-REQUIREMENT: Oma ühel ajal {0} aktiivset questi.
+QUESTS-COMPLETED-QUESTS-REQUIREMENT: Lõpeta vähemalt {0} questi.
+QUESTS-COMPLETE-SPECIFIC-QUEST-REQUIREMENT: Lõpeta quest '{0}'.
+QUESTS-QUEST-POINTS-REQUIREMENT: Oma vähemalt {0} questipunkti.
+RANK-CHANGE-RESULT: Roll muudetakse {0}.
+REQUIREMENT-PROGRESS: 'Nõude progress {0}:'
+RESET-DAILY-TIME: '&6[Autorank] &5Uus päev on saabunud! &eKõik päevased ajad on lähtestatud.'
+RESET-MONTHLY-TIME: '&6[Autorank] &5Uus kuu on saabunud! &eKõik kuulised ajad on lähtestatud.'
+RESET-WEEKLY-TIME: '&6[Autorank] &5Uus nädal on saabunud! &eKõik nädalased ajad on lähtestatud.'
+RPGME-COMBAT-LEVEL-REQUIREMENT: Oma RPGme-s vähemalt {0} võitlustaset.
+RPGME-POWER-LEVEL-REQUIREMENT: Oma RPGme-s vähemalt {0} kombineeritud taset.
+RPGME-SKILL-LEVEL-REQUIREMENT: Oma RPGme {1} vähemalt {0} taset.
+SECOND-PLURAL: sekundit
+SECOND-SINGULAR: sekund
+SPAWN-FIREWORK-RESULT: Tekitatakse ilutulestik asukohta {0}.
+STORAGE-IMPORTED: Uus mäluruum on imporditud!
+SUCCESSFULLY-COMPLETED-REQUIREMENT: 'Olete edukalt täitnud nõude &6{0}&a:'
+TELEPORT-RESULT: Saad teleporteeritud asukohta {0}.
+TIMES-DIED-REQUIREMENT: Sure vähemalt {0} korda
+TIMES-SHEARED-REQUIREMENT: Püga vähemalt {0} lammast
+TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Kauple vähemalt {0} korda külaelanikega
+TIME-DAILY-REQUIREMENT: ' Mängi ühe päeva jooksul vähemalt {0}.'
+TIME-MONTHLY-REQUIREMENT: ' Mängi ühe kuu jooksul vähemalt {0}.'
+TIME-REQUIREMENT: Mängi vähemalt {0}
+TIME-WEEKLY-REQUIREMENT: ' Mängi ühe nädala jooksul vähemalt {0}.'
+TOTAL-MOBS-KILLED-REQUIREMENT: Tapa vähemalt {0} elukat
+TOTAL-TIME-REQUIREMENT: Olge selle serveriga vähemalt {0}
+TOWNY-HAS-NATION-REQUIREMENT: Pead olema rahvuse osa.
+TOWNY-HAS-TOWN-REQUIREMENT: Pead olema linna osa.
+TOWNY-IS-KING-REQUIREMENT: Pead olema rahvuse kuningas.
+TOWNY-IS-MAYOR-REQUIREMENT: Pead olema linnapea.
+TOWNY-NEED-NUMBER-OF-TOWN-BLOCKS: Pead omama vähemalt {0} linnaplokki.
+UHC-STATS-DEATHS-REQUIREMENT: Hangi vähemalt {0} surma.
+UHC-STATS-KILLS-REQUIREMENT: Hangi vähemalt {0} tapmist.
+UHC-STATS-WINS-REQUIREMENT: Hangi vähemalt {0} võitu.
+UNKNOWN-PLAYER: '&cMängija {0} on tundmatu ja teda ei õnnestunud tuvastada.'
+VOTE-REQUIREMENT: Hääleta vähemalt {0} korda
+WORLD-GUARD-REGION-REQUIREMENT: Ole alas {0}
+WORLD-REQUIREMENT: Asu kohas {0}
+YOU-ARE-A-ROBOT: '&cSa oled robot, {0}'
